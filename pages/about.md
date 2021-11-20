@@ -1,33 +1,25 @@
 ---
-title: About us
-metaDescription: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.desciption will be used instead.
-date: 2017-01-01T00:00:00.000Z
+title: About
+metaDescription: This is the online home of the Harper clan. It brings together family stories, photos and recordings, making them available to everyone in the family. It also helps connect the family by providing information and booking for our family reunions.
+date: 2022-11-20
 permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-Add a few line breaks in here to test:-
-Capitalize  
-on  
-low  
-hanging  
-fruit  
+## About this website
+This is the online home of the Harper clan. It brings together family stories, photos and recordings, making them available to everyone in the family. It also helps connect the family by providing information and booking for our family reunions.
 
-## Our services
+## Harper Family History
+The Kilkenny Militia was re-established on the 15th March 1803, due to the increasing threat of a French invasion of England by Napoleon via Ireland. Robert Harper (born 1769) son of Edward Harper, Aghavea, Co. Fermanagh was recruited to join. He married Elizabeth Duncan and they had a family of 7 sons and 2 daughters. He eventually settled in Coon, Co. Kilkenny in 1825, as a tenant farmer.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Six of their sons emigrated, leaving son Robert who married Mary Stone on the farm at Coon. They had a family of two sons and three daughters. The family in Coon were mainly self-sufficient. All cooking was done on the open fire. The bread pan used at Coon is still in the family, a treasured artifact. This family witnessed the Great Hunger (an Gorta Mór) from 1845 – 1849. It was a period of mass starvation and disease in Ireland during which 1 million people starved to death, and another million emigrated. The worst year being 1847 and is still remembered as Black 47. 
 
-### Blue-sky thinking
+Ireland was over dependent upon the potato to feed its population of 8 million, and when blight (phytophyhora infestans) struck, the consequences were disastrous. The Harper potato crop in Coon also failed, but Aunt Bessie’s (1868-1962) answer to a young boy’s question regarding how the Harpers survived the famine was that they were fortunate to have a bag of Indian meal (maize) behind the door in Coon. Her parents would have had vivid memories of that time.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Robert and Mary’s eldest son Edward (25) eloped and married his sweetheart Margaret Bolton (23), in Tramore, Co. Waterford on 15th September 1862. Edward and Margaret rented Cramer’s Grove in Kilkenny leaving brother Robert to inherit the farm in Coon. Edward and Margaret had thirteen children, eleven of which reached adulthood. 
 
-#### Management frameworks
+Cramer’s Grove was a dairy farm in 1865 and the “white gold” of then was churned by hand, on the farm into butter, and then sold on the market.  To date, the dairy tradition continues with the cream now producing the delicious Cramer’s Grove ice-cream by Nigel and Carol, who are the fifth generation of Harpers to farm at Cramer’s Grove. The annuities of 19 pounds sterling were paid twice yearly for one hundred years until 1980 when Sam R. Harper (Victors son) made the last payment on Cramer’s Grove and became the first freeholder of the title.
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-##### Regulatory convergence
-
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+As in previous generations, three sons of Edward namely Robert, John and William emigrated to Canada, leaving their youngest son Sam to inherit Cramer’s Grove. Sam and his wife Mary Jane Leech had a family of ten; nine boys and one girl. Farms were bought for six sons who farmed extensively in close proximity to the city of Kilkenny. They were George and Tilly at Annamult, Bob and Sylvia at Cantwell’s Court, Jack and Mabel at Ballyfoyle, Sam and Annie at Sandford’s Court, Victor and Alice at New Orchard with Cramer’s Grove and Leonard and Bertha at Balleven. Consequently the  Harper family were anchored to the land of County Kilkenny. Fourth son Reverent William Harper married Elizabeth and lived in Belfast, and the only daughter Edith married Joe Poole and farmed at Ballybeg, Co. Wexford.
