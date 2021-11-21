@@ -9,3 +9,4 @@ eleventyNavigation:
 ---
 # Welcome
 
+![harper family group photo](../static/img/harper-family-2013.jpg)

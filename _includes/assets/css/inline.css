@@ -1,9 +1,9 @@
 :root {
-	--color-primary: #A88548;
+	--color-primary: #81550b;
 	--color-secondary: white;
 	--color-text: #332f2f;
-	--color-background: #FFFFFF;
-	--font-weight--bold: 600;
+	--color-background: antiquewhite;
+	--font-weight--bold: 700;
 	--font-weight--regular: 400;
 }
 
@@ -15,19 +15,33 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Crimson Text", "Georgia", serif;
+	font-family: "Nanum Myeongjo", "Georgia", serif;
 }
 
 body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
+	justify-items: center;
 	background-color: var(--color-background);
 	color: var(--color-text);
 }
 
-main {
-	max-width: 37.5em;
+body > * {
+	width: 100%;
+}
+
+header {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+}
+
+main,
+footer {
+	max-width: 37.5rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p,
@@ -56,13 +70,13 @@ h3,
 h4,
 h5,
 h6 {
-	font-weight: var(--font-weight--regular);
+	font-weight: var(--font-weight--bold);
 }
 
 header,
 main,
 footer {
-	padding: 1em;
+	padding: 2rem;
 }
 
 main {
@@ -97,6 +111,7 @@ header > em {
 	font-size: 2em;
 	margin: .67em 0;
 	font-style: normal;
+	flex: 1 0 17ch;
 }
 header > em > a[href],
 header > em > a[href]:visited {
