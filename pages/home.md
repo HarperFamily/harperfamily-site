@@ -7,6 +7,9 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
+
+<div class="u-full-bleed">
 
 ![harper family group photo](../static/img/harper-family-2013.jpg)
+
+</div>
