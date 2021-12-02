@@ -17,6 +17,15 @@
   --text-measure: 60ch;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #b78739;
+    --color-secondary: #3a3a3a;
+    --color-text: #b3b3b3;
+    --color-background: #242120;
+  }
+}
+
 @media (min-width: 960px) {
   :root {
     /* ↓ Upscale by 25% at 960px */
@@ -157,6 +166,7 @@ header > em {
   margin: 0.67em 0;
   font-style: normal;
   flex: 1 0 17ch;
+  max-width: unset;
 }
 header > em > a[href],
 header > em > a[href]:visited {
