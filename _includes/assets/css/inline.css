@@ -12,7 +12,6 @@
   --color-background: #f3eee4;
 
   --font-size--base: 1rem;
-  font-size: var(--font-size--base);
   --font-size--base-lg: 125%;
   --font-weight--bold: 700;
   --font-weight--regular: 400;
@@ -76,6 +75,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  font-size: var(--font-size--base);
   font-family: var(--font-family--body);
 }
 
@@ -83,13 +83,18 @@ body {
   display: grid;
   height: 100vh;
   grid-template-rows: auto 1fr auto;
-  justify-items: center;
   background-color: var(--color-background);
   color: var(--color-text);
 }
 
 body > * {
   width: 100%;
+}
+
+header,
+main,
+footer {
+  padding: var(--s1);
 }
 
 header {
@@ -104,6 +109,15 @@ footer {
   max-width: var(--text-measure);
   margin-left: auto;
   margin-right: auto;
+}
+
+main {
+  padding-bottom: var(--s2);
+}
+
+main :first-child,
+main > article :first-child {
+  margin-top: 0;
 }
 
 p,
@@ -146,21 +160,6 @@ h2 {
   margin-top: var(--s2);
 }
 
-header,
-main,
-footer {
-  padding: var(--s2);
-}
-
-main {
-  padding-bottom: var(--s2);
-}
-
-main :first-child,
-main > article :first-child {
-  margin-top: 0;
-}
-
 pre {
   font-size: 0.7rem;
   direction: ltr;
@@ -179,7 +178,7 @@ pre {
 }
 
 /* Header Logo (style as h2) */
-header > em {
+.site-title {
   display: block;
   font-size: 1.5rem;
   margin: 0.67em 0;
@@ -187,8 +186,8 @@ header > em {
   flex: 1 0 17ch;
   max-width: unset;
 }
-header > em > a[href],
-header > em > a[href]:visited {
+.site-title > a[href],
+.site-title > a[href]:visited {
   color: var(--color-text);
 }
 
@@ -196,20 +195,11 @@ header > em > a[href]:visited {
 header nav ul {
   padding: 0;
   list-style: none;
-}
-
-header nav ul :first-child {
-  margin-left: 0;
-}
-
-header nav li {
-  display: inline-block;
-  margin: 0 0.25em;
+  display: flex;
+  gap: var(--s1);
 }
 
 header nav li a {
-  padding: 0.25em 0.5em;
-  border-radius: 0.25em;
   opacity: 0.8;
 }
 
@@ -224,14 +214,12 @@ header nav li a[data-current="current item"] {
 
 /* Posts List */
 article {
-  /* margin-bottom: 1.75em; */
-  padding-bottom: 1em;
-  border-bottom: 1px solid #eee;
+  padding-bottom: var(--s-1);
   border-bottom: 1px solid var(--color-secondary);
 }
 
 article + article {
-  margin-top: 1.75em;
+  margin-top: var(--s1);
 }
 
 main > section > article > * {
@@ -302,7 +290,12 @@ button {
 
 .u-full-bleed {
   width: 100vw;
-  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
 }
 
 .u-full-bleed * {
