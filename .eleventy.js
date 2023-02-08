@@ -39,7 +39,7 @@ module.exports = function(eleventyConfig) {
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
-    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
+    return DateTime.fromJSDate(dateObj).toFormat("dd LLLL yyyy");
   });
 
   // Date formatting (machine readable)
@@ -80,6 +80,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("icon.svg");
   eleventyConfig.addPassthroughCopy("apple-touch-icon.png");
   eleventyConfig.addPassthroughCopy("static/img");
+  eleventyConfig.addPassthroughCopy("static/images");
+  eleventyConfig.addPassthroughCopy("static/audio");
+  eleventyConfig.addPassthroughCopy("static/video");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/inline.css");
