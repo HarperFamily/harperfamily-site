@@ -1,5 +1,4 @@
 ---
-title: Author archive
 layout: layouts/base.njk
 pagination:
   data: collections.authors
@@ -12,7 +11,7 @@ eleventyComputed:
   metaDescription: "An archive of all posts by the author: {{ author }}."
 ---
 
-<h1>{{ renderData.title | safe }}</h1>
+<h1>{{ title }}</h1>
 
 <section>
 	{% for post in collections.authors[author] | reverse %}

@@ -14,7 +14,7 @@ The 5th of July marked The Harper Family Cookbook launch, and what a day out it 
 
 Had the weather been in our favour, we would have spread out on blankets in a field, but as it was windy enough to blow the sandwich right out of your hand, Dougie kindly prepared a farm shed for us.
 
-![A number of Harper's gathered in shed around the art display of Nigel and Kyria Smith.](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Cookbook-54-1024x683.jpg)
+![A number of Harper's gathered in shed around the art display of Nigel and Kyria Smith.](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Cookbook-54.jpg)
 
 Five years ago, this corrugated tin shed had a massive makeover to host the wedding of Dougie's nephew Micheal and his bride Edith. Five years on however, the faded grandeur of that celebration still hangs limply from the ceiling. The wonder in a five year old's eyes that a shed could have a chandelier, was a fitting setting for this family gathering. We were as comfortable in a storage shed as we would have been in a fancy hotel. It's the people that matter after all. And so many people! Before 2020, having a gathering of 70 people would have been nothing to blink at. But as the families rolled in, all staying in their family groups, and spilling out of the shed, that sense of awe, of relief came rolling in too. It was so good to see family. To strengthen the bonds that connect us.
 

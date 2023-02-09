@@ -1,6 +1,6 @@
 {
   "name": "harperfamily-site",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A static website with the Eleventy static site generator and Netlify CMS, for deployment to Netlify.",
   "scripts": {
     "build": "npx eleventy",
@@ -27,9 +27,7 @@
     "@11ty/eleventy": "^2.0.0",
     "luxon": "^3.2.1",
     "markdown-it": "^13.0.1",
-    "markdown-it-anchor": "^8.6.6"
-  },
-  "dependencies": {
+    "markdown-it-anchor": "^8.6.6",
     "@11ty/eleventy-navigation": "^0.3.5",
     "clean-css": "^5.3.2",
     "html-minifier": "^4.0.0",
