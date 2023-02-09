@@ -6,7 +6,7 @@ pagination:
   size: 1
   alias: author
 permalink: "authors/{{ author | slug }}/"
-renderData:
+eleventyComputed:
   author: "{{ author }}"
   title: "Posts by {{ author }}"
   metaDescription: "An archive of all posts by the author: {{ author }}."
