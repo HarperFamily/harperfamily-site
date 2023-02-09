@@ -7,6 +7,6 @@ tags:
   - "2013-reunion"
 ---
 
-<audio controls src="/static/audio/the-harper-reunion-beat102103_2013-04-09T02_20_40-07_00.mp3"></audio>
+<audio controls src="https://f001.backblazeb2.com/file/harperfamily-media/the-harper-reunion-beat102103_2013-04-09T02_20_40-07_00.mp3"></audio>
 
-[Download the interview](/static/audio/the-harper-reunion-beat102103_2013-04-09T02_20_40-07_00.mp3)
+[Download the interview](https://f001.backblazeb2.com/file/harperfamily-media/the-harper-reunion-beat102103_2013-04-09T02_20_40-07_00.mp3)

@@ -5,7 +5,7 @@ tags:
   - "activities"
 ---
 
-[![nore valley park kilkenny](/static/images/544117_433050773438690_2113137294_n.jpg)](/static/images/544117_433050773438690_2113137294_n.jpg)
+[![nore valley park kilkenny](https://f001.backblazeb2.com/file/harperfamily-media/544117_433050773438690_2113137294_n.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/544117_433050773438690_2113137294_n.jpg)
 
 Friday 5th from 2-5pm
 

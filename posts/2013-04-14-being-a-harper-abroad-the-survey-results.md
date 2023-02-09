@@ -8,4 +8,4 @@ tags:
 
 Roger has kindly put together a PDF his presentation including the results of the survey he carried out on a number of Harpers living abroad.
 
-[Download the survey results.](/static/documents/Being-a-Harper-Abroad-seminar.pdf)
+[Download the survey results.](https://f001.backblazeb2.com/file/harperfamily-media/Being-a-Harper-Abroad-seminar.pdf)

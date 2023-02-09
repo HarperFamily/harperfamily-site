@@ -8,6 +8,6 @@ tags:
   - "wedding"
 ---
 
-<audio controls src="/static/audio/robert-and-colleens-wedding-service.mp3"></audio>
+<audio controls src="https://f001.backblazeb2.com/file/harperfamily-media/robert-and-colleens-wedding-service.mp3"></audio>
 
-[Download](/static/audio/robert-and-colleens-wedding-service.mp3)
+[Download](https://f001.backblazeb2.com/file/harperfamily-media/robert-and-colleens-wedding-service.mp3)

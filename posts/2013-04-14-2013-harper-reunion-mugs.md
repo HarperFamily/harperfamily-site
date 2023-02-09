@@ -11,7 +11,7 @@ A new and also last minute addition to our 2013 reunion was our Harper merchandi
 
 Here are the designs that are available at the time of writing.
 
-[![sample1](/static/images/sample1-1024x405.jpg)](/static/images/sample1.jpg)
-[![sample2](/static/images/sample2-1024x405.jpg)](/static/images/sample2.jpg)
-[![sample3](/static/images/sample3-1024x405.jpg)](/static/images/sample3.jpg)
-[![sample4](/static/images/sample4-1024x405.jpg)](/static/images/sample4.jpg)
+[![sample1](https://f001.backblazeb2.com/file/harperfamily-media/sample1-1024x405.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/sample1.jpg)
+[![sample2](https://f001.backblazeb2.com/file/harperfamily-media/sample2-1024x405.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/sample2.jpg)
+[![sample3](https://f001.backblazeb2.com/file/harperfamily-media/sample3-1024x405.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/sample3.jpg)
+[![sample4](https://f001.backblazeb2.com/file/harperfamily-media/sample4-1024x405.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/sample4.jpg)

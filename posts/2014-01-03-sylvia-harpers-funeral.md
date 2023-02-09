@@ -10,6 +10,6 @@ tags:
 
 Sylvia's Service of Thanksgiving and Remembrance was held in St Canice's Cathedral, Kilkenny after her passing on the 25th of February, 2007. This recording has been edited into 13 smaller files which you can listen to individually by using the download button below.
 
-<audio controls src="/static/audio/sylvia-harpers-funeral.mp3"></audio>
+<audio controls src="https://f001.backblazeb2.com/file/harperfamily-media/sylvia-harpers-funeral.mp3"></audio>
 
-[Download](/static/audio/sylvia-harpers-funeral.mp3)
+[Download](https://f001.backblazeb2.com/file/harperfamily-media/sylvia-harpers-funeral.mp3)

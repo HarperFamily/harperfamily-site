@@ -11,9 +11,9 @@ What started out as a joke on Facebook about someone writing a (tongue-in-cheek)
 
 Here is a recording of the song by Dave Shaw & Gwin Munt. Thanks to Brian Alcorn for recording and editing it.
 
-<audio controls src="/static/audio/A-Psalm-for-the-Harpers.mp3"></audio>
+<audio controls src="https://f001.backblazeb2.com/file/harperfamily-media/A-Psalm-for-the-Harpers.mp3"></audio>
 
-You can [download the song here](/static/audio/A-Psalm-for-the-Harpers.mp3) and find the lyrics printed below.
+You can [download the song here](https://f001.backblazeb2.com/file/harperfamily-media/A-Psalm-for-the-Harpers.mp3) and find the lyrics printed below.
 
 > Lord, how Your mighty hand has blessed us
 > Your outstretched arm persistent to protect us

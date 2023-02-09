@@ -9,6 +9,6 @@ tags:
 
 An audio letter from June Davis in Liberia from around Christmas time 1974.
 
-<audio controls src="/static/audio/junes-christmas-letter.mp3"></audio>
+<audio controls src="https://f001.backblazeb2.com/file/harperfamily-media/junes-christmas-letter.mp3"></audio>
 
-[Download](/static/audio/junes-christmas-letter.mp3)
+[Download](https://f001.backblazeb2.com/file/harperfamily-media/junes-christmas-letter.mp3)

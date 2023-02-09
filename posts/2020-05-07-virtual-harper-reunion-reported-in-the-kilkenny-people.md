@@ -10,4 +10,4 @@ tags:
 
 Our virtual reunion was reported on in The Kilkenny People, the local newspaper in Kilkenny, ireland.
 
-[![](/static/images/harper-reunion-kilkenny-people-2020-1-scaled.jpeg)](/static/images/harper-reunion-kilkenny-people-2020-1-scaled.jpeg)
+[![](https://f001.backblazeb2.com/file/harperfamily-media/harper-reunion-kilkenny-people-2020-1-scaled.jpeg)](https://f001.backblazeb2.com/file/harperfamily-media/harper-reunion-kilkenny-people-2020-1-scaled.jpeg)

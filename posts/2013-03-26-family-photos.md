@@ -6,7 +6,7 @@ tags:
   - "activities"
 ---
 
-[![harper-group-photo-2006](/static/images/harper-group-photo-2006.jpg)](/static/images/harper-group-photo-2006.jpg)
+[![harper-group-photo-2006](https://f001.backblazeb2.com/file/harperfamily-media/harper-group-photo-2006.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/harper-group-photo-2006.jpg)
 
 Time: Saturday 6th at 2pm
 

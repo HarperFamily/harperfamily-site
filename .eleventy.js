@@ -79,11 +79,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("icon.svg");
   eleventyConfig.addPassthroughCopy("apple-touch-icon.png");
-  eleventyConfig.addPassthroughCopy("static/img");
-  eleventyConfig.addPassthroughCopy("static/images");
-  eleventyConfig.addPassthroughCopy("static/audio");
-  eleventyConfig.addPassthroughCopy("static/video");
-  eleventyConfig.addPassthroughCopy("static/documents");
+  eleventyConfig.addPassthroughCopy("static/uploads");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/inline.css");

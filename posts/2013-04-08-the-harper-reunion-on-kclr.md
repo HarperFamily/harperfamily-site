@@ -10,6 +10,6 @@ On Wednesday the 3rd of April (the week of the 2013 Harper Reunion), three membe
 
 Here is a recording of the interview.
 
-<audio controls src="/static/audio/harper-reunion-2013-sue-nunn-show-kclr.mp3"></audio>
+<audio controls src="https://f001.backblazeb2.com/file/harperfamily-media/harper-reunion-2013-sue-nunn-show-kclr.mp3"></audio>
 
-[Download the interview](/static/audio/harper-reunion-2013-sue-nunn-show-kclr.mp3)
+[Download the interview](https://f001.backblazeb2.com/file/harperfamily-media/harper-reunion-2013-sue-nunn-show-kclr.mp3)

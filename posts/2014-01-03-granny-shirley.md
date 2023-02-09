@@ -9,6 +9,6 @@ tags:
 
 Granny Shirley (Tilly Harper's mother) reading some poetry.
 
-<audio controls src="/static/audio/granny-shirley.mp3"></audio>
+<audio controls src="https://f001.backblazeb2.com/file/harperfamily-media/granny-shirley.mp3"></audio>
 
-[Download](/static/audio/granny-shirley.mp3)
+[Download](https://f001.backblazeb2.com/file/harperfamily-media/granny-shirley.mp3)

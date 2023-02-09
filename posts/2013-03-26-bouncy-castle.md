@@ -6,7 +6,7 @@ tags:
   - "activities"
 ---
 
-\[caption id="attachment_695" align="aligncenter" width="1363"\][![(Photo for illustrative purposes only)](/static/images/bouncy-castle.jpg)](/static/images/bouncy-castle.jpg) (Photo for illustrative purposes only)\[/caption\]
+\[caption id="attachment_695" align="aligncenter" width="1363"\][![(Photo for illustrative purposes only)](https://f001.backblazeb2.com/file/harperfamily-media/bouncy-castle.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/bouncy-castle.jpg) (Photo for illustrative purposes only)\[/caption\]
 
 That's right, a bouncy castle! Are you excited? Because I'm excited!
 

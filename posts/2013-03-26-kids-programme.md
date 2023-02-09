@@ -6,7 +6,7 @@ tags:
   - "activities"
 ---
 
-[![kids-art](/static/images/kids-art.jpg)](/static/images/kids-art.jpg)
+[![kids-art](https://f001.backblazeb2.com/file/harperfamily-media/kids-art.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/kids-art.jpg)
 
 **Friday 5th at 10.30am**
 
