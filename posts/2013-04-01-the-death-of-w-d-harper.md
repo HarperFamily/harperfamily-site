@@ -6,4 +6,4 @@ tags:
   - "articles"
 ---
 
-[![WD_Harper](images/WD_Harper.jpg)](http://harperfamily.ie/wp-content/uploads/2013/04/WD_Harper.jpg)
+[![WD_Harper](/static/images/WD_Harper.jpg)](/static/images/WD_Harper.jpg)

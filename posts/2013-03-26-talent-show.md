@@ -6,7 +6,7 @@ tags:
   - "activities"
 ---
 
-[![StageMicrophoneBSP1388268](images/StageMicrophoneBSP1388268.jpg)](http://harperfamily.ie/wp-content/uploads/2013/03/StageMicrophoneBSP1388268.jpg)
+[![StageMicrophoneBSP1388268](/static/images/StageMicrophoneBSP1388268.jpg)](/static/images/StageMicrophoneBSP1388268.jpg)
 
 **Saturday 6th at 7pm**
 

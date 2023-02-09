@@ -8,6 +8,6 @@ tags:
   - "funeral"
 ---
 
-\[audio mp3="http://harperfamily.ie/wp-content/uploads/2014/01/george-harpers-funeral-service.mp3"\]\[/audio\]
+<audio controls src="/static/audio/george-harpers-funeral-service.mp3"></audio>
 
-[Download](http://harperfamily.ie/wp-content/uploads/2014/01/george-harpers-funeral-service.mp3)
+[Download](/static/audio/george-harpers-funeral-service.mp3)

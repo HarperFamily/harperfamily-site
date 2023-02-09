@@ -5,8 +5,9 @@ author: Graham Harper
 tags:
   - "audio"
   - "media"
+  - "wedding"
 ---
 
-\[audio mp3="http://harperfamily.ie/wp-content/uploads/2014/01/robert-and-colleens-wedding-service.mp3"\]\[/audio\]
+<audio controls src="/static/audio/robert-and-colleens-wedding-service.mp3"></audio>
 
-[Download](http://harperfamily.ie/wp-content/uploads/2014/01/robert-and-colleens-wedding-service.mp3)
+[Download](/static/audio/robert-and-colleens-wedding-service.mp3)

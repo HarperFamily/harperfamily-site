@@ -19,11 +19,11 @@ Due to COVID-19 social distancing restrictions only a maximum of 50 people could
 
 You can watch the recording of the service below:
 
-https://www.facebook.com/kilkennychurch/videos/413972249567174/
+<iframe class="video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fkilkennychurch%2Fvideos%2F413972249567174%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
 We were fortunate that Sam was able to take part in the Harper Family Virtual Reunion back in April and so we have a recording of a beautiful message from him that was used in the service.
 
-https://youtu.be/Ja5nvzJdDDY
+<iframe class="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ja5nvzJdDDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Many who couldn't attend the service also honoured Sam in their own way. Nigel Smith, the designer behind [The Harper Family Cookbook](http://harperfamily.ie/2019/11/10/pre-reunion-meal-and-photo-shoot/) and Sam's grandson, published a recipe for Sam's favourite meal, encouraging others to cook and share the meal in memory of Sam.
 
@@ -41,4 +41,4 @@ The Harper's in Cantwells Court join in honouring Sam
 ![](/static/images/119228256_10157057171297581_8630086706927086752_o-485x1024.jpg)
 Roger Harper's Swedish take on bacon and cabbage
 
-[Eat this in remembrance of me (PDF)](http://harperfamily.ie/wp-content/uploads/2020/09/Eat-this-in-remembrance-of-me.pdf)[Download](http://harperfamily.ie/wp-content/uploads/2020/09/Eat-this-in-remembrance-of-me.pdf)
+[Eat this in remembrance of me (PDF)](/static/documents/Eat-this-in-remembrance-of-me.pdf)

@@ -8,6 +8,6 @@ tags:
   - "funeral"
 ---
 
-\[audio mp3="http://harperfamily.ie/wp-content/uploads/2014/01/annie-harpers-funeral.mp3"\]\[/audio\]
+<audio controls src="/static/audio/annie-harpers-funeral.mp3"></audio>
 
-[Download](http://harperfamily.ie/wp-content/uploads/2014/01/annie-harpers-funeral.mp3)
+[Download](/static/audio/annie-harpers-funeral.mp3)

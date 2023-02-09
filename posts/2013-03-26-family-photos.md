@@ -6,7 +6,7 @@ tags:
   - "activities"
 ---
 
-[![harper-group-photo-2006](images/harper-group-photo-2006.jpg)](http://harperfamily.ie/wp-content/uploads/2012/11/harper-group-photo-2006.jpg)
+[![harper-group-photo-2006](/static/images/harper-group-photo-2006.jpg)](/static/images/harper-group-photo-2006.jpg)
 
 Time: Saturday 6th at 2pm
 

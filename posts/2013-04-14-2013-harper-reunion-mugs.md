@@ -11,4 +11,7 @@ A new and also last minute addition to our 2013 reunion was our Harper merchandi
 
 Here are the designs that are available at the time of writing.
 
-[![sample1](images/sample1-1024x405.jpg)](http://harperfamily.ie/wp-content/uploads/2013/04/sample1.jpg) [![sample2](images/sample2-1024x405.jpg)](http://harperfamily.ie/wp-content/uploads/2013/04/sample2.jpg) [![sample3](images/sample3-1024x405.jpg)](http://harperfamily.ie/wp-content/uploads/2013/04/sample3.jpg) [![sample4](images/sample4-1024x405.jpg)](http://harperfamily.ie/wp-content/uploads/2013/04/sample4.jpg)
+[![sample1](/static/images/sample1-1024x405.jpg)](/static/images/sample1.jpg)
+[![sample2](/static/images/sample2-1024x405.jpg)](/static/images/sample2.jpg)
+[![sample3](/static/images/sample3-1024x405.jpg)](/static/images/sample3.jpg)
+[![sample4](/static/images/sample4-1024x405.jpg)](/static/images/sample4.jpg)

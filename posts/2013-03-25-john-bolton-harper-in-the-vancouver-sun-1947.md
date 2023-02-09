@@ -6,4 +6,4 @@ tags:
   - "articles"
 ---
 
-A scan of a newspaper article on [John Harper in The Vancouver Sun 1947](http://harperfamily.ie/wp-content/uploads/2013/03/John-Harper_Vancouver-Sun-1947.pdf)
+A scan of a newspaper article on [John Harper in The Vancouver Sun 1947](/static/documents/John-Harper_Vancouver-Sun-1947.pdf)

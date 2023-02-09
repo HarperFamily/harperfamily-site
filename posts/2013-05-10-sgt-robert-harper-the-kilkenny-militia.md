@@ -9,4 +9,4 @@ tags:
 
 This is a talk given by Lt. Larry Scallon at the 2013 Harper Reunion on Sgt. Robert Harper and the Kilkenny Militia.
 
-<iframe src="http://www.youtube.com/embed/UjDMagLj5xY?rel=0" height="360" width="640" allowfullscreen frameborder="0"></iframe>
+<iframe class="video" src="http://www.youtube.com/embed/UjDMagLj5xY?rel=0" height="360" width="640" allowfullscreen frameborder="0"></iframe>

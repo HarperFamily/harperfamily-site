@@ -6,7 +6,7 @@ tags:
   - "activities"
 ---
 
-[![kids-art](images/kids-art.jpg)](http://harperfamily.ie/wp-content/uploads/2013/03/kids-art.jpg)
+[![kids-art](/static/images/kids-art.jpg)](/static/images/kids-art.jpg)
 
 **Friday 5th at 10.30am**
 

@@ -140,6 +140,11 @@ img {
   height: auto;
 }
 
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
