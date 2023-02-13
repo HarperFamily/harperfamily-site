@@ -8,4 +8,7 @@ eleventyNavigation:
   key: Contact
   order: 3
 ---
-If you have any questions or suggestions you can contact Jill Callanan by using the form below (or call her directly if you’re lucky enough to have her number!).
+
+If you have any questions, suggestions or contributions to this site you can contact Graham Harper by using the form below.
+
+If you are part of the Harper Clan, you can join [our Facebook group](https://www.facebook.com/groups/121341441277128).
