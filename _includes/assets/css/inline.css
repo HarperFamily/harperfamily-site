@@ -1,23 +1,23 @@
-@font-face {
+/* @font-face {
   font-family: "VeronaSerial";
   src: url("/fonts/VeronaSerial/font.woff2") format("woff2"),
     url("/fonts/VeronaSerial/font.woff") format("woff");
-}
+} */
 
 :root {
   --color-primary: #975e00;
   --color-secondary: #e7e1d8;
-  --color-text: #332f2f;
+  --color-text: #17153f;
   --color-text--inverse: #ffffff;
   --color-background: #f3eee4;
 
   --font-size--base: 1rem;
   --font-size--base-lg: 125%;
-  --font-weight--bold: 700;
+  --font-weight--bold: 600;
   --font-weight--regular: 400;
-  --font-family--headings: "VeronaSerial", "Georgia", serif;
-  --font-family--body: "Nunito Sans", "Georgia", serif;
-  --text-measure: 60ch;
+  --font-family--headings: "Playfair Display", "Georgia", serif;
+  --font-family--body: "Source Sans Pro", sans-serif;
+  --text-measure: 70ch;
 
   /* modular scale */
   --ratio: 1.5;
@@ -234,6 +234,10 @@ main > section > article > * {
   margin-bottom: 0.5em;
 }
 
+article + nav {
+  margin-block-start: var(--s0);
+}
+
 /* Post Tags */
 a[rel="tag"],
 a[rel="tag"]:visited {
@@ -308,4 +312,19 @@ button {
 .u-full-bleed * {
   width: 100%;
   max-width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+footer nav ul {
+  padding: 0;
+  margin: 0;
+  margin-block-start: var(--s-1);
+  list-style: none;
+  display: flex;
+  gap: var(--s1);
 }
