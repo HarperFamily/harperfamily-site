@@ -3,6 +3,7 @@ title: "Nore Valley Park"
 date: "2013-03-25"
 tags:
   - "activities"
+  - "2013-reunion"
 ---
 
 [![nore valley park kilkenny](https://f001.backblazeb2.com/file/harperfamily-media/544117_433050773438690_2113137294_n.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/544117_433050773438690_2113137294_n.jpg)

@@ -4,6 +4,7 @@ date: "2013-03-25"
 author: Graham Harper
 tags:
   - "activities"
+  - "2013-reunion"
 ---
 
 [![james stephens barracks kilkenny](https://f001.backblazeb2.com/file/harperfamily-media/james-stephens-barracks.jpeg)](https://f001.backblazeb2.com/file/harperfamily-media/james-stephens-barracks.jpeg)

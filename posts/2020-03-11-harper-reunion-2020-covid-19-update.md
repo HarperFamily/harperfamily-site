@@ -4,6 +4,7 @@ date: "2020-03-11"
 author: Jill Callanan
 tags:
   - "news"
+  - 2020-reunion
 ---
 
 Those of us responsible for organising the reunion have discussed the current COVID 19 situation in Ireland, and its possible developments here and abroad. With this in light, we have taken the decision to postpone the reunion until the risk of spreading COVID 19 has diminished. We do not want to be a possible cause of spreading the virus and putting anyone at risk.

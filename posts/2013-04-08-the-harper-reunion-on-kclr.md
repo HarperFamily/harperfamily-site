@@ -4,6 +4,7 @@ date: "2013-04-08"
 author: Graham Harper
 tags:
   - "audio"
+  - "2013-reunion"
 ---
 
 On Wednesday the 3rd of April (the week of the 2013 Harper Reunion), three members of the family, Jill Harper, Sam Harper and Valerie Harper, were interviewed live on The Sue Nunn Show on KCLR (Kilkenny & Carlow Local Radio).

@@ -6,6 +6,7 @@ tags:
   - "articles"
   - "events"
   - "photos"
+  - 2020-reunion
 ---
 
 When Sgt. Robert Harper was posted to Kilkenny in the early 1800’s, he hardly imagined that just shy of 200 years later, 170 plus of his descendants from 9 different countries would gather virtually for a family reunion!

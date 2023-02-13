@@ -6,6 +6,7 @@ tags:
   - "articles"
   - "media"
   - "news"
+  - 2020-reunion
 ---
 
 Our virtual reunion was reported on in The Kilkenny People, the local newspaper in Kilkenny, ireland.
