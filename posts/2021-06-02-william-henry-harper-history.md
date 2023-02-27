@@ -9,7 +9,9 @@ tags:
 
 William Henry Harper born 2nd Dec 1873 in Grove, Kilkenny to Edward Harper and Margaret Bolton.
 
-![](https://f001.backblazeb2.com/file/harperfamily-media/195107788_10159578640936468_2360117583498368502_n.jpg)
+<!-- ![](https://f001.backblazeb2.com/file/harperfamily-media/195107788_10159578640936468_2360117583498368502_n.jpg) -->
+
+{% image "https://f001.backblazeb2.com/file/harperfamily-media/195107788_10159578640936468_2360117583498368502_n.jpg", "william henry harper birth cert" %}
 
 He appears in the Kilkenny Moderator on 16 Aug 1899. As he is a witness in a court case.
 

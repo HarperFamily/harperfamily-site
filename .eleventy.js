@@ -4,6 +4,28 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const Image = require("@11ty/eleventy-img");
+
+async function imageShortcode(src, alt, sizes = "(min-width: 60ch) calc(60ch - 3.75rem), calc(100vw - 3.75rem)") {
+  const widths = [330, 660, 990]
+  let metadata = await Image(src, {
+    widths: widths
+      .concat(widths.map((w) => w * 2)) // generate 2x sizes
+      .filter((v, i, s) => s.indexOf(v) === i), // dedupe
+    formats: ["avif", "jpeg"],
+    outputDir: "./_site/img/"
+  });
+
+  let imageAttributes = {
+    alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  };
+
+  // Throw an error on missing alt in `imageAttributes` (alt="" works okay)
+  return Image.generateHTML(metadata, imageAttributes);
+}
 
 module.exports = function(eleventyConfig) {
 
@@ -102,6 +124,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
   );
+
+  eleventyConfig.addAsyncShortcode("image", imageShortcode);
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
