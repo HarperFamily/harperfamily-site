@@ -5,9 +5,9 @@
 } */
 
 :root {
-  --color-primary: #975e00;
+  --color-primary: #7c4d00;
   --color-secondary: #e7e1d8;
-  --color-text: #17153f;
+  --color-text: #262535;
   --color-text--inverse: #ffffff;
   --color-background: #f3eee4;
 
@@ -15,7 +15,7 @@
   --font-size--base-lg: 125%;
   --font-weight--bold: 600;
   --font-weight--regular: 400;
-  --font-family--headings: "Playfair Display", "Georgia", serif;
+  --font-family--headings: "Domine", "Georgia", serif;
   --font-family--body: "Source Sans Pro", sans-serif;
   --text-measure: 70ch;
 
