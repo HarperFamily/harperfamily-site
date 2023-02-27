@@ -1,6 +1,20 @@
 ---
 layout: layouts/base.njk
 section: home
+numberOfLatestPostsToShow: 3
 ---
 
 {{ layoutContent | safe }}
+
+{% set postsCount = collections.post | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
+
+{% set postslist = collections.post | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "components/postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the blog archive</a>.</p>
+{% endif %}

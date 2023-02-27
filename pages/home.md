@@ -6,6 +6,7 @@ permalink: /
 eleventyNavigation:
   key: Home
   order: 0
+numberOfLatestPostsToShow: 3
 ---
 
 <div class="u-full-bleed">
