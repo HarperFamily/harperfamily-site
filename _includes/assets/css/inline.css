@@ -38,7 +38,7 @@
   :root {
     --color-primary: #b78739;
     --color-secondary: #3a3a3a;
-    --color-text: #b3b3b3;
+    --color-text: #d1d1d1;
     --color-text--inverse: #242120;
     --color-background: #242120;
   }
@@ -232,6 +232,13 @@ article + article {
 main > section > article > * {
   margin-top: 0;
   margin-bottom: 0.5em;
+}
+
+main article img {
+  max-width: calc(100% + 4rem);
+  position: relative;
+  left: calc(var(--s1) * -1);
+  height: auto;
 }
 
 article + nav {
