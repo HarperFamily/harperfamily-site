@@ -1,6 +1,6 @@
 ---
 title: "William Henry Harper History"
-date: "2021-07-02"
+date: 2021-07-02T00:00:00.000Z
 author: Caroline Harper
 tags:
   - "photos"
