@@ -1,16 +1,21 @@
 ---
 title: About
-metaDescription: The online home of the Harper clan, descendants of Samuel Harper (1881-1957) of Kilkenny, Ireland. It brings together family stories, photos and recordings, making them available to everyone in the family. It also helps connect the family by providing information and booking for our family reunions.
+metaDescription: The online home of the Harper clan, descendants of Samuel
+  Harper (1881-1957) of Kilkenny, Ireland. It brings together family stories,
+  photos and recordings, making them available to everyone in the family. It
+  also helps connect the family by providing information and booking for our
+  family reunions.
 date: 2022-11-20
 permalink: /about/index.html
 eleventyNavigation:
   key: About
   order: 1
 ---
-
 ## About this website
 
 The online home of the Harper clan, descendants of Samuel Harper (1881-1957) of Kilkenny, Ireland. It's a collection of family stories, photos and recordings, made available to everyone in the extended family. It also provides information and booking for our family reunions that occur roughly every seven years.
+
+T﻿he site is maintained by Graham Harper and hosted on [GitHub](https://github.com/HarperFamily/harperfamily-site). If you're interested in helping, contributions are welcome. Get in [contact](/contact) or visit the [GitHub repo](https://github.com/HarperFamily/harperfamily-site).
 
 ## Harper Family History
 
