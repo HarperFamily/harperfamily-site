@@ -21,10 +21,10 @@ collections:
           label: "Author",
           name: "author",
           widget: "string",
-          default: "Anonymous",
+          default: "Graham Harper",
         }
       - { label: "Summary", name: "summary", widget: "text" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
       - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
   - name: "pages"
