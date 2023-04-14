@@ -17,8 +17,6 @@ A﻿nd a list of :
 * ﻿item
   -﻿ item
 
-![mojave](/static/uploads/mojave.png "mojave wallpaper")
+![mojave](./static/uploads/mojave.png "mojave wallpaper")
 
-![](/static/uploads/logo.png)
-
-![]()
+![](./static/uploads/logo.png)

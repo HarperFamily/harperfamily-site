@@ -11,6 +11,6 @@ numberOfLatestPostsToShow: 3
 
 <div class="u-full-bleed">
 
-![harper family group photo](/static/uploads/harper-family-2013.jpg)
+![harper family group photo](./static/uploads/harper-family-2013.jpg)
 
 </div>

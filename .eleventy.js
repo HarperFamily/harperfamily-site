@@ -6,14 +6,18 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const Image = require("@11ty/eleventy-img");
 
-async function imageShortcode(src, alt, sizes = "(min-width: 60ch) calc(60ch - 3.75rem), calc(100vw - 3.75rem)") {
-  const widths = [330, 660, 990]
+const widths = [330, 660, 990];
+const imgWidths = widths
+  .concat(widths.map((w) => w * 2))
+  .filter((v, i, s) => s.indexOf(v) === i);
+const imgSizes =
+  "(min-width: 60ch) calc(60ch - 3.75rem), calc(100vw - 3.75rem)";
+
+async function imageShortcode(src, alt, sizes = imgSizes) {
   let metadata = await Image(src, {
-    widths: widths
-      .concat(widths.map((w) => w * 2)) // generate 2x sizes
-      .filter((v, i, s) => s.indexOf(v) === i), // dedupe
+    widths: imgWidths,
     formats: ["avif", "jpeg"],
-    outputDir: "./_site/img/"
+    outputDir: "./_site/img/",
   });
 
   let imageAttributes = {
@@ -27,8 +31,7 @@ async function imageShortcode(src, alt, sizes = "(min-width: 60ch) calc(60ch - 3
   return Image.generateHTML(metadata, imageAttributes);
 }
 
-module.exports = function(eleventyConfig) {
-
+module.exports = function (eleventyConfig) {
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
@@ -47,7 +50,7 @@ module.exports = function(eleventyConfig) {
   // Add support for maintenance-free post authors
   // Adds an authors collection using the author key in our post frontmatter
   // Thanks to @pdehaan: https://github.com/pdehaan
-  eleventyConfig.addCollection("authors", collection => {
+  eleventyConfig.addCollection("authors", (collection) => {
     const blogs = collection.getFilteredByGlob("posts/*.md");
     return blogs.reduce((coll, post) => {
       const author = post.data.author;
@@ -63,22 +66,22 @@ module.exports = function(eleventyConfig) {
   });
 
   // Date formatting (human readable)
-  eleventyConfig.addFilter("readableDate", dateObj => {
+  eleventyConfig.addFilter("readableDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("d LLLL yyyy");
   });
 
   // Date formatting (machine readable)
-  eleventyConfig.addFilter("machineDate", dateObj => {
+  eleventyConfig.addFilter("machineDate", (dateObj) => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
   });
 
   // Minify CSS
-  eleventyConfig.addFilter("cssmin", function(code) {
+  eleventyConfig.addFilter("cssmin", function (code) {
     return new CleanCSS({}).minify(code).styles;
   });
 
   // Minify JS
-  eleventyConfig.addFilter("jsmin", function(code) {
+  eleventyConfig.addFilter("jsmin", function (code) {
     let minified = UglifyJS.minify(code);
     if (minified.error) {
       console.log("UglifyJS error: ", minified.error);
@@ -88,29 +91,29 @@ module.exports = function(eleventyConfig) {
   });
 
   // Get the first `n` elements of a collection.
-	eleventyConfig.addFilter("head", (array, n) => {
-		if(!Array.isArray(array) || array.length === 0) {
-			return [];
-		}
-		if( n < 0 ) {
-			return array.slice(n);
-		}
+  eleventyConfig.addFilter("head", (array, n) => {
+    if (!Array.isArray(array) || array.length === 0) {
+      return [];
+    }
+    if (n < 0) {
+      return array.slice(n);
+    }
 
-		return array.slice(0, n);
-	});
+    return array.slice(0, n);
+  });
 
-	// Return the smallest number argument
-	eleventyConfig.addFilter("min", (...numbers) => {
-		return Math.min.apply(null, numbers);
-	});
+  // Return the smallest number argument
+  eleventyConfig.addFilter("min", (...numbers) => {
+    return Math.min.apply(null, numbers);
+  });
 
   // Minify HTML output
-  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     if (outputPath.indexOf(".html") > -1) {
       let minified = htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
-        collapseWhitespace: true
+        collapseWhitespace: true,
       });
       return minified;
     }
@@ -129,17 +132,36 @@ module.exports = function(eleventyConfig) {
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
   let markdownItAnchor = require("markdown-it-anchor");
+  let markdownItEleventyImg = require("markdown-it-eleventy-img");
   let options = {
     html: true,
     breaks: true,
-    linkify: true
+    linkify: true,
   };
   let opts = {
-    permalink: false
+    permalink: false,
+  };
+  let markdownItEleventyImgOpts = {
+    imgOptions: {
+      outputDir: "./_site/img/",
+    },
   };
 
-  eleventyConfig.setLibrary("md", markdownIt(options)
-    .use(markdownItAnchor, opts)
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt(options)
+      .use(markdownItAnchor, opts)
+      .use(markdownItEleventyImg, {
+        imgOptions: {
+          widths: imgWidths,
+          outputDir: "./_site/img/",
+        },
+        globalAttributes: {
+          class: "markdown-image",
+          decoding: "async",
+          sizes: imgSizes,
+        },
+      })
   );
 
   eleventyConfig.addAsyncShortcode("image", imageShortcode);
@@ -160,7 +182,7 @@ module.exports = function(eleventyConfig) {
       input: ".",
       includes: "_includes",
       data: "_data",
-      output: "_site"
-    }
+      output: "_site",
+    },
   };
 };
