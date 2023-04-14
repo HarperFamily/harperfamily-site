@@ -1,6 +1,6 @@
 ---
 title: "Sgt. Robert Harper & The Kilkenny Militia"
-date: "2013-05-10"
+date: 2013-05-10T00:00:00.000Z
 author: Graham Harper
 tags:
   - "2013-reunion"

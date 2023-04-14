@@ -1,6 +1,6 @@
 ---
 title: "William Harper's Letters"
-date: "2013-03-25"
+date: 2013-03-25T00:00:00.000Z
 author: Graham Harper
 tags:
   - "letters"

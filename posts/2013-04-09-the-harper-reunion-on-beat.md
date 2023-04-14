@@ -1,6 +1,6 @@
 ---
 title: "The Harper Reunion on Beat"
-date: "2013-04-09"
+date: 2013-04-09T00:00:00.000Z
 author: Graham Harper
 tags:
   - "audio"

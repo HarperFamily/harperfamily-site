@@ -1,6 +1,6 @@
 ---
 title: "Harper Family Virtual Reunion 2020"
-date: "2020-05-06"
+date: 2020-05-06T00:00:00.000Z
 author: Jill Callanan
 tags:
   - "articles"

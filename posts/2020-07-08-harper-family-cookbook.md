@@ -1,6 +1,6 @@
 ---
 title: "Harper Family Cookbook"
-date: "2020-07-08"
+date: 2020-07-08T00:00:00.000Z
 author: Graham Harper
 tags:
   - "books"

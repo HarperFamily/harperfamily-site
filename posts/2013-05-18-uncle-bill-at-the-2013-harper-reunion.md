@@ -1,6 +1,6 @@
 ---
 title: "Uncle Bill at The 2013 Harper Reunion"
-date: "2013-05-18"
+date: 2013-05-18T00:00:00.000Z
 author: Graham Harper
 tags:
   - "2013-reunion"

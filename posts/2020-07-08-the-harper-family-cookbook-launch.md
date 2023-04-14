@@ -1,6 +1,6 @@
 ---
 title: "The Harper Family Cookbook Launch"
-date: "2020-07-08"
+date: 2020-07-08T00:00:00.000Z
 author: Audrey Shaw
 tags:
   - "articles"

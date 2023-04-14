@@ -1,6 +1,6 @@
 ---
 title: "The Harper Reunion on kilkennypeople.ie"
-date: "2013-04-10"
+date: 2013-04-10T00:00:00.000Z
 author: Graham Harper
 tags:
   - "articles"

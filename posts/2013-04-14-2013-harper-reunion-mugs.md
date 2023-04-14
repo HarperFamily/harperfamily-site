@@ -1,6 +1,6 @@
 ---
 title: "2013 Harper Reunion Mugs"
-date: "2013-04-14"
+date: 2013-04-14T00:00:00.000Z
 author: Graham Harper
 tags:
   - "2013-reunion"

@@ -1,6 +1,6 @@
 ---
 title: "Sylvia Harper's Funeral"
-date: "2014-01-03"
+date: 2014-01-03T00:00:00.000Z
 author: Graham Harper
 tags:
   - "audio"

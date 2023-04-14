@@ -1,6 +1,6 @@
 ---
 title: "Tea With The Grandparents"
-date: "2013-04-28"
+date: 2013-04-28T00:00:00.000Z
 author: Graham Harper
 tags:
   - "2013-reunion"

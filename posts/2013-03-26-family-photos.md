@@ -1,6 +1,6 @@
 ---
 title: "Family Photos"
-date: "2013-03-26"
+date: 2013-03-26T00:00:00.000Z
 author: Graham Harper
 tags:
   - "activities"

@@ -1,6 +1,6 @@
 ---
 title: "Profiling Harper Emigration, Migration and Return"
-date: "2013-03-18"
+date: 2013-03-18T00:00:00.000Z
 author: Graham Harper
 tags:
   - "2013-reunion"
