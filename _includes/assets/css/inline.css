@@ -234,8 +234,11 @@ main > section > article > * {
   margin-bottom: 0.5em;
 }
 
-main article img {
-  max-width: calc(100% + 4rem);
+main article picture,
+main article :not(picture) > img {
+  display: block;
+  max-width: none;
+  width: calc(100% + 3rem);
   position: relative;
   left: calc(var(--s1) * -1);
   height: auto;
