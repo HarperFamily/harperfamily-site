@@ -12,4 +12,4 @@ Note: This image is a mockup, the main logo will be a slightly smaller on the pr
 
 ### [Order yours here!](http://harperfamily.ie/contact/ "Contact")
 
-[![harperlogotshirt](https://f001.backblazeb2.com/file/harperfamily-media/harperlogotshirt.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/harperlogotshirt.jpg)
+[{% image "https://f001.backblazeb2.com/file/harperfamily-media/harperlogotshirt.jpg", "harperlogotshirt" %}](https://f001.backblazeb2.com/file/harperfamily-media/harperlogotshirt.jpg)

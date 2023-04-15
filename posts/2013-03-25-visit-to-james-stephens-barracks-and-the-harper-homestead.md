@@ -7,7 +7,7 @@ tags:
   - "2013-reunion"
 ---
 
-[![james stephens barracks kilkenny](https://f001.backblazeb2.com/file/harperfamily-media/james-stephens-barracks.jpeg)](https://f001.backblazeb2.com/file/harperfamily-media/james-stephens-barracks.jpeg)
+[{% image "https://f001.backblazeb2.com/file/harperfamily-media/james-stephens-barracks.jpeg", "james stephens barracks kilkenny" %}](https://f001.backblazeb2.com/file/harperfamily-media/james-stephens-barracks.jpeg)
 
 When: Friday 5th from 2-5pm (leaving Kilkenny College at 1:45pm)
 

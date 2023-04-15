@@ -7,7 +7,7 @@ tags:
   - "2013-reunion"
 ---
 
-[![StageMicrophoneBSP1388268](https://f001.backblazeb2.com/file/harperfamily-media/StageMicrophoneBSP1388268.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/StageMicrophoneBSP1388268.jpg)
+[{% image "https://f001.backblazeb2.com/file/harperfamily-media/StageMicrophoneBSP1388268.jpg", "StageMicrophoneBSP1388268" %}](https://f001.backblazeb2.com/file/harperfamily-media/StageMicrophoneBSP1388268.jpg)
 
 **Saturday 6th at 7pm**
 

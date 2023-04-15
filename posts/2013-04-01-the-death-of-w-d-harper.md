@@ -6,4 +6,4 @@ tags:
   - "articles"
 ---
 
-[![WD_Harper](https://f001.backblazeb2.com/file/harperfamily-media/WD_Harper.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/WD_Harper.jpg)
+[{% image "https://f001.backblazeb2.com/file/harperfamily-media/WD_Harper.jpg", "WD_Harper" %}](https://f001.backblazeb2.com/file/harperfamily-media/WD_Harper.jpg)

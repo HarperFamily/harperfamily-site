@@ -7,7 +7,7 @@ tags:
   - "2013-reunion"
 ---
 
-[![tea cup with sheep](https://f001.backblazeb2.com/file/harperfamily-media/tea-cup-with-sheep-Deborah-Sears-Oxford.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/tea-cup-with-sheep-Deborah-Sears-Oxford.jpg)
+[{% image "https://f001.backblazeb2.com/file/harperfamily-media/tea-cup-with-sheep-Deborah-Sears-Oxford.jpg", "tea cup with sheep" %}](https://f001.backblazeb2.com/file/harperfamily-media/tea-cup-with-sheep-Deborah-Sears-Oxford.jpg)
 
 Enjoy the company and stories of the oldest (and wisest) members of the Harper family all in one place and what better way than over a cup of tea and a slice of cake!
 

@@ -7,7 +7,7 @@ tags:
   - "2013-reunion"
 ---
 
-[![(Photo for illustrative purposes only)](https://f001.backblazeb2.com/file/harperfamily-media/bouncy-castle.jpg "Photo for illustrative purposes only")](https://f001.backblazeb2.com/file/harperfamily-media/bouncy-castle.jpg) (Photo for illustrative purposes only)
+[{% image "https://f001.backblazeb2.com/file/harperfamily-media/bouncy-castle.jpg "Photo for illustrative purposes only"", "(Photo for illustrative purposes only)" %}](https://f001.backblazeb2.com/file/harperfamily-media/bouncy-castle.jpg) (Photo for illustrative purposes only)
 
 That's right, a bouncy castle! Are you excited? Because I'm excited!
 
