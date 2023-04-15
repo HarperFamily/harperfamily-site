@@ -10,8 +10,7 @@ const widths = [330, 660, 990];
 const imgWidths = widths
   .concat(widths.map((w) => w * 2))
   .filter((v, i, s) => s.indexOf(v) === i);
-const imgSizes =
-  "(min-width: 60ch) calc(60ch - 3.75rem), calc(100vw - 3.75rem)";
+const imgSizes = "(min-width: 712px) 712px, 100vw";
 
 async function imageShortcode(src, alt, sizes = imgSizes) {
   let metadata = await Image(src, {

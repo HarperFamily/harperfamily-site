@@ -12,7 +12,7 @@
   --color-background: #f3eee4;
 
   --font-size--base: 1rem;
-  --font-size--base-lg: 125%;
+  --font-size--base-lg: 1.25rem;
   --font-weight--bold: 600;
   --font-weight--regular: 400;
   --font-family--headings: "Domine", "Georgia", serif;
@@ -41,13 +41,6 @@
     --color-text: #d1d1d1;
     --color-text--inverse: #242120;
     --color-background: #242120;
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    /* ↓ Upscale by 25% at 960px */
-    font-size: var(--font-size--base-lg);
   }
 }
 
@@ -87,6 +80,13 @@ body {
   color: var(--color-text);
 }
 
+@media (min-width: 960px) {
+  body {
+    /* ↓ Upscale by 25% at 960px */
+    font-size: var(--font-size--base-lg);
+  }
+}
+
 body > * {
   width: 100%;
 }
@@ -123,7 +123,7 @@ main > article :first-child {
 p,
 pre,
 code {
-  line-height: var(--s1);
+  line-height: 1.5;
 }
 
 a[href],
