@@ -1,23 +1,29 @@
 <head>
   <meta charset="utf-8">
   <link rel="dns-prefetch" href="https://identity.netlify.com">
-  <link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <!-- 32×32 -->
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <!-- 180×180 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title or title or metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or eleventyComputed.metaDescription or metadata.description }}">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <script async defer src="https://analytics.umami.is/script.js" data-website-id="6396c246-c8d9-49c1-a41d-9e1ee6f7a8ab" data-domains="harperfamily.ie,harperfamily.netlify.app"></script>
   {% set css %}
-    {% include "assets/css/inline.css" %}
+  {% include "assets/css/inline.css" %}
   {% endset %}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Domine&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-  <style>{{ css | cssmin | safe }}</style>
+  <style>
+    {{css | cssmin | safe}}
+  </style>
   {% set js %}
-    {% include "assets/js/inline.js" %}
+  {% include "assets/js/inline.js" %}
   {% endset %}
-  <script>{{ js | jsmin | safe }}</script>
+  <script>
+    {{ js | jsmin | safe }}
+  </script>
 </head>

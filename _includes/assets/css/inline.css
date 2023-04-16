@@ -11,6 +11,7 @@
   --color-text--inverse: #ffffff;
   --color-background: #f3eee4;
 
+  --font-size--sm: 0.875rem;
   --font-size--base: 1rem;
   --font-size--base-lg: 1.25rem;
   --font-weight--bold: 600;
@@ -283,13 +284,14 @@ form {
   padding: 2em 0;
 }
 
-form label {
-  display: none;
+label {
+  font-size: var(--font-size--sm);
 }
 
 input,
 textarea,
 button {
+  display: block;
   width: 100%;
   padding: var(--s-2);
   margin-bottom: var(--s-2);
@@ -299,10 +301,14 @@ button {
 
 input,
 textarea {
-  border: 1px solid black;
+  border: 1px solid var(--color-text);
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
-button {
+button,
+input[type="submit"] {
+  padding: var(--s-2) var(--s-1);
   border: 1px solid var(--color-primary);
   background-color: var(--color-primary);
   color: var(--color-text--inverse);
@@ -313,6 +319,95 @@ button {
   display: grid;
   grid-template-columns: 1fr auto;
   gap: var(--s-2);
+}
+
+.stack-s3 > * + * {
+  margin-block-start: var(--s3);
+}
+.stack-s4 > * + * {
+  margin-block-start: var(--s4);
+}
+.stack-s5 > * + * {
+  margin-block-start: var(--s5);
+}
+
+[class^="stack"] > :is(h1, h2, h3, h4, h5, h6) + * {
+  margin-block-start: unset;
+}
+
+@media (min-width: 1024px) {
+  .hero-text {
+    margin: -6rem calc(var(--s2) * -1) 0;
+    position: relative;
+    background-color: var(--color-background);
+    padding: var(--s1) var(--s2) 0;
+  }
+}
+
+.card-container {
+  container: card / inline-size;
+}
+
+.card-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s0);
+}
+
+@container (max-width: 400px) {
+  .card-child {
+    grid-template-columns: 1fr;
+  }
+}
+
+.subscribe {
+  margin-top: var(--s4);
+}
+
+.subscribe p {
+  font-size: var(--font-size--sm);
+}
+
+#mc_embed_signup {
+  max-width: var(--text-measure);
+  padding: var(--s1);
+  margin-inline: auto;
+  border: 1px solid var(--color-secondary);
+}
+
+#mc_embed_signup form {
+  padding: unset;
+}
+
+#mc_embed_signup h3 {
+  margin-top: unset;
+}
+
+.indicates-required {
+  font-size: var(--font-size--sm);
+}
+
+#mc_embed_signup .brandingLogo {
+  display: none;
+}
+
+.subscribe-form-group {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--s-2);
+}
+
+.subscribe-form-group input {
+  max-width: unset;
+}
+
+.subscribe-form-group .mc-field-group {
+  flex: 1;
+}
+
+.subscribe-form-group .button {
+  width: auto;
+  flex: 0 1 auto;
 }
 
 .u-full-bleed {

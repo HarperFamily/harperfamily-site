@@ -4,17 +4,47 @@ section: home
 numberOfLatestPostsToShow: 3
 ---
 
-{{ layoutContent | safe }}
+<div class="stack-s4">
 
-{% set postsCount = collections.post | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
+  {{ layoutContent | safe }}
 
-{% set postslist = collections.post | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "components/postslist.njk" %}
+  {% set postsCount = collections.post | length %}
+  {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+  {# <h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}
+</h2> #}
+  <h2>Latest posts</h2>
 
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the blog archive</a>.</p>
-{% endif %}
+  {% set postslist = collections.post | head(-1 * numberOfLatestPostsToShow) %}
+  {% set postslistCounter = postsCount %}
+  {% set showTags = false %}
+  {% include "components/postslist.njk" %}
+
+  {% set morePosts = postsCount - numberOfLatestPostsToShow %}
+  {% if morePosts > 0 %}
+    {# <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the blog archive</a>.</p> #}
+    <p>Find more in <a href="/blog/">the blog archive →</a>
+    </p>
+  {% endif %}
+
+  <h2>Popular tags</h2>
+  <div class="featured-taglist">
+    <a href="/tags/events/" rel="tag">Events</a>
+    <a href="/tags/food/" rel="tag">Food</a>
+    <a href="/tags/video/" rel="tag">History</a>
+    <a href="/tags/2020-reunion/" rel="tag">2020 Reunion</a>
+    <a href="/tags/2020-reunion/" rel="tag">2013 Reunion</a>
+    <a href="/tags/2020-reunion/" rel="tag">2006 Reunion</a>
+    <a href="/tags/2020-reunion/" rel="tag">1990 Reunion</a>
+  </div>
+
+  <h2>Media</h2>
+  <div class="featured-taglist">
+    <a href="/tags/photos/" rel="tag">Photos</a>
+    <a href="/tags/video/" rel="tag">Video</a>
+    <a href="/tags/audio/" rel="tag">Audio</a>
+    <a href="/tags/letters/" rel="tag">Letters</a>
+  </div>
+
+  {% include "components/subscribe.njk" %}
+
+</div>
