@@ -9,7 +9,7 @@ tags:
 
 A big thank you to Dale for taking these fantastic photographs.
 
-{% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_2992_Large_Original.jpg", "" %}
+<!-- {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_2992_Large_Original.jpg", "" %}
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_2993_Large_Original.jpg", "" %}
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_2995_Large_Original.jpg", "" %}
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_3003_Large_Original.jpg", "" %}
@@ -39,7 +39,7 @@ A big thank you to Dale for taking these fantastic photographs.
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_3084_Large_Original.jpg", "" %}
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_3085_Large_Original.jpg", "" %}
 
-<!-- {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_3087_Large_Original.jpg", "" %}
+{% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_3087_Large_Original.jpg", "" %}
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_3089_Large_Original.jpg", "" %}
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_3091_Large_Original.jpg", "" %}
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_3092_Large_Original.jpg", "" %}
