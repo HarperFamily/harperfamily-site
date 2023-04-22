@@ -8,3 +8,5 @@ tags:
 ---
 
 A scan of a newspaper article on [John Harper in The Vancouver Sun 1947](https://f001.backblazeb2.com/file/harperfamily-media/John-Harper_Vancouver-Sun-1947.pdf)
+
+![A scan of a newspaper article on John Harper in The Vancouver Sun 1947](./static/uploads/John-Harper_Vancouver-Sun-1947.jpg)
