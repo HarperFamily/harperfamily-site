@@ -9,20 +9,6 @@ eleventyNavigation:
 numberOfLatestPostsToShow: 3
 ---
 
-<div class="u-full-bleed">
-
-{% image "./static/uploads/harper-family-2013.jpg", "formal group photo of over 200 Harpers", "100vw" %}
-
-</div>
-
-<div class="hero-text">
-
-# Many branches, one tree.
-
-Welcome to the online home of the Harper clan, descendants of Samuel Harper (1881-1957) of Kilkenny, Ireland.
-
-</div>
-
 ## Featured
 
 <div class="card-container">

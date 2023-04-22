@@ -1,0 +1,17 @@
+{% set numberOfLatestPostsToShow = 3 %}
+{% set postsCount = collections.post | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+{% set postslist = collections.post | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% set showTags = false %}
+<section>
+  <h2>Latest posts</h2>
+  {% include "components/postslist.njk" %}
+
+  {% set morePosts = postsCount - numberOfLatestPostsToShow %}
+  {% if morePosts > 0 %}
+    {# <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the blog archive</a>.</p> #}
+    <p>Find more in <a href="/blog/">the blog archive →</a>
+    </p>
+  {% endif %}
+</section>

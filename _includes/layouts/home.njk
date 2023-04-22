@@ -6,25 +6,23 @@ numberOfLatestPostsToShow: 3
 
 <div class="stack-s4">
 
+  <div class="banner">
+
+    <div class="banner_text">
+      <h1>Many branches, one tree.</h1>
+
+      <p>Welcome to the online home of the Harper clan, descendants of Samuel Harper (1881-1957) of Kilkenny, Ireland.</p>
+
+      <a href="/about" class="btn">About the Harper Family</a>
+    </div>
+
+    {% image "./static/uploads/harper-family-2013.jpg", "formal group photo of over 200 Harpers", "100vw" %}
+
+  </div>
+
   {{ layoutContent | safe }}
 
-  {% set postsCount = collections.post | length %}
-  {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-  {# <h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}
-</h2> #}
-  <h2>Latest posts</h2>
-
-  {% set postslist = collections.post | head(-1 * numberOfLatestPostsToShow) %}
-  {% set postslistCounter = postsCount %}
-  {% set showTags = false %}
-  {% include "components/postslist.njk" %}
-
-  {% set morePosts = postsCount - numberOfLatestPostsToShow %}
-  {% if morePosts > 0 %}
-    {# <p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the blog archive</a>.</p> #}
-    <p>Find more in <a href="/blog/">the blog archive →</a>
-    </p>
-  {% endif %}
+  {% include "components/latestposts.njk" %}
 
   <h2>Popular tags</h2>
   <div class="featured-taglist">
