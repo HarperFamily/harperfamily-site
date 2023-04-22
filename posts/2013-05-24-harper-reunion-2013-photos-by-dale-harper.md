@@ -11,3 +11,4 @@ A big thank you to Dale for taking these fantastic photographs.
 
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_2992_Large_Original.jpg", "" %}
 {% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_2993_Large_Original.jpg", "" %}
+{% image "https://f001.backblazeb2.com/file/harperfamily-media/DSC_2995_Large_Original.jpg", "" %}
