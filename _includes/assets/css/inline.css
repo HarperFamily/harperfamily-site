@@ -477,6 +477,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 
 footer nav ul {
@@ -486,4 +487,5 @@ footer nav ul {
   list-style: none;
   display: flex;
   gap: var(--s1);
+  flex-wrap: wrap;
 }
