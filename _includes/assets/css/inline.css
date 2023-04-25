@@ -390,7 +390,6 @@ a[href].btn {
   z-index: 1;
   max-width: var(--text-measure);
   padding: var(--s3) var(--s2);
-  color: #262535;
 }
 
 @media (min-width: 1024px) {
@@ -405,6 +404,7 @@ a[href].btn {
   .banner_text p,
   .banner_text h1 {
     text-shadow: 0 1px 2px white;
+    color: #262535;
   }
 
   .banner > picture {
