@@ -247,6 +247,36 @@ main article :not(picture) > img {
   height: auto;
 }
 
+.gallery {
+  display: grid;
+  gap: var(--s0);
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 600px) {
+  .gallery {
+    width: 80vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -40vw;
+    margin-right: -40vw;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1400px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+main article .gallery picture,
+main article .gallery :not(picture) > img {
+  position: static;
+  width: auto;
+}
+
 article + nav {
   margin-block-start: var(--s0);
 }
@@ -360,6 +390,7 @@ a[href].btn {
   z-index: 1;
   max-width: var(--text-measure);
   padding: var(--s3) var(--s2);
+  color: #262535;
 }
 
 @media (min-width: 1024px) {
