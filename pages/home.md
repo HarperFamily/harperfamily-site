@@ -23,7 +23,7 @@ numberOfLatestPostsToShow: 3
 
 <div class="card-content">
 
-### Harper Family Cookbook
+### [Harper Family Cookbook](/posts/harper-family-cookbook/)
 
 A collection of 139 recipes contributed and curated by members of the Harper family. [Read more](/posts/harper-family-cookbook/)
 

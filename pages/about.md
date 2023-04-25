@@ -11,11 +11,12 @@ eleventyNavigation:
   key: About
   order: 1
 ---
-## About this website
 
-The online home of the Harper clan, descendants of Samuel Harper (1881-1957) of Kilkenny, Ireland. It's a collection of family stories, photos and recordings, made available to everyone in the extended family. It also provides information and booking for our family reunions that occur roughly every seven years.
+## About this site
 
-T﻿he site is maintained by Graham Harper and hosted on [GitHub](https://github.com/HarperFamily/harperfamily-site). If you're interested in helping, contributions are welcome. Get in [contact](/contact) or visit the [GitHub repo](https://github.com/HarperFamily/harperfamily-site).
+The online home of the Harper clan, descendants of Samuel Harper (1881-1957) of Kilkenny, Ireland. You'll find family stories, photos, recordings, artwork and historical artefacts, made available to everyone in the extended family. You'll also find information about our family reunions which take place around every 7 years.
+
+The site is maintained by Graham Harper, the source code is on [GitHub](https://github.com/HarperFamily/harperfamily-site) and hosted on [Netlify](https://netlify.com). If you're interested in helping with the site, contributions are welcome. Get in [contact](/contact) or visit the [GitHub repo](https://github.com/HarperFamily/harperfamily-site).
 
 ## Harper Family History
 
