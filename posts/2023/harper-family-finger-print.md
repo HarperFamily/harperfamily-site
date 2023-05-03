@@ -8,7 +8,7 @@ tags:
   - art
 ---
 
-[![Art piece by Patricia Harper containing the signed finger print of around 200 Harpers, arranged to form a single large finger print.](static/uploads/harper-family-finger-print-framed-scan.jpg)](/static/uploads/harper-family-finger-print.jpg)
+[![Art piece by Patricia Harper containing the signed finger print of around 200 Harpers, arranged to form a single large finger print.](/static/uploads/harper-family-finger-print-framed-scan.jpg)](/static/uploads/harper-family-finger-print.jpg)
 
 <small>[Download high quality scan](/static/uploads/harper-family-finger-print.jpg)</small>
 
