@@ -5,6 +5,7 @@ const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const Image = require("@11ty/eleventy-img");
+const path = require('path');
 
 const widths = [330, 660, 990];
 const imgWidths = widths
@@ -140,11 +141,6 @@ module.exports = function (eleventyConfig) {
   let opts = {
     permalink: false,
   };
-  let markdownItEleventyImgOpts = {
-    imgOptions: {
-      outputDir: "./_site/img/",
-    },
-  };
 
   eleventyConfig.setLibrary(
     "md",
@@ -160,6 +156,8 @@ module.exports = function (eleventyConfig) {
           decoding: "async",
           sizes: imgSizes,
         },
+        // resolvePath: (filepath, env) => path.join("./static/uploads", path.basename(filepath))
+        resolvePath: (filepath, env) => path.join(".", filepath)
       })
   );
 
