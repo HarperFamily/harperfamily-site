@@ -1,13 +1,17 @@
 ---
 title: Harper Family Finger Print
+date: 2023-05-03T21:08:20.368Z
 author: Patricia Harper
 summary: An art print by Patricia Harper containing the finger print of 200 Harpers
 tags:
   - 2013-reunion
   - art
 ---
-
 [![Art piece by Patricia Harper containing the signed finger print of around 200 Harpers, arranged to form a single large finger print.](./static/uploads/harper-family-finger-print-framed-scan.jpg)](/static/uploads/harper-family-finger-print.jpg)
+
+
+
+![wallpaper](wallpaper.png)
 
 <small>[Download high quality scan](/static/uploads/harper-family-finger-print.jpg)</small>
 
