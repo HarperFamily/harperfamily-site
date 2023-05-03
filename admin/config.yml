@@ -28,7 +28,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   # Our pages e.g. About
   - name: "pages"
-    label: "Page"
+    label: "Pages"
     folder: "pages"
     create: true # Change to true to allow editors to create new pages
     slug: "{{slug}}"
