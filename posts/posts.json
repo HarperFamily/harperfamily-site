@@ -1,7 +1,7 @@
 {
   "layout": "layouts/post.njk",
-  "permalink": "posts/{{ title | slug }}/index.html",
-  "author": "Anonymous",
+  "permalink": "blog/{{ title | slug }}/index.html",
+  "author": "Graham Harper",
   "tags": [
     "post"
   ]
