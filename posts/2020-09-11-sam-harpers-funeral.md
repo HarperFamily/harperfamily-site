@@ -15,7 +15,7 @@ Our sympathy and prayers are with Dougie, Albert and Margaret Harper, Dorothy an
 
 Due to COVID-19 social distancing restrictions only a maximum of 50 people could attend the service in person. So while many people couldn't be there in person they joined in watching a live video feed from outside the church building and around the world through Facebook.
 
-{% image "https://f001.backblazeb2.com/file/harperfamily-media/119058036_10158240438000189_577004356318321697_n-copy.jpg", "" %}
+![](https://f001.backblazeb2.com/file/harperfamily-media/119058036_10158240438000189_577004356318321697_n-copy.jpg)
 
 You can watch the recording of the service below:
 
@@ -31,14 +31,14 @@ Many who couldn't attend the service also honoured Sam in their own way. Nigel S
 >
 > Nigel Smith on the [Harper Clan Facebook Group](https://www.facebook.com/groups/121341441277128/permalink/3324687487609158/)
 
-{% image "https://f001.backblazeb2.com/file/harperfamily-media/Eat-this-in-remembrance-of-me-1024x768.jpg", "" %}
-{% image "https://f001.backblazeb2.com/file/harperfamily-media/Eat-this-in-remembrance-of-me2-1024x768.jpg", "" %}
-{% image "https://f001.backblazeb2.com/file/harperfamily-media/Eat-this-in-remembrance-of-me3-1024x768.jpg", "" %}
-{% image "https://f001.backblazeb2.com/file/harperfamily-media/Eat-this-in-remembrance-of-me4-1024x768.jpg", "" %}
-{% image "https://f001.backblazeb2.com/file/harperfamily-media/119167713_10164805790415455_3451679476708277493_n.jpg", "" %}
+![](https://f001.backblazeb2.com/file/harperfamily-media/Eat-this-in-remembrance-of-me-1024x768.jpg)
+![](https://f001.backblazeb2.com/file/harperfamily-media/Eat-this-in-remembrance-of-me2-1024x768.jpg)
+![](https://f001.backblazeb2.com/file/harperfamily-media/Eat-this-in-remembrance-of-me3-1024x768.jpg)
+![](https://f001.backblazeb2.com/file/harperfamily-media/Eat-this-in-remembrance-of-me4-1024x768.jpg)
+![](https://f001.backblazeb2.com/file/harperfamily-media/119167713_10164805790415455_3451679476708277493_n.jpg)
 The Harper's in Cantwells Court join in honouring Sam
 
-{% image "https://f001.backblazeb2.com/file/harperfamily-media/119228256_10157057171297581_8630086706927086752_o-485x1024.jpg", "" %}
+![](https://f001.backblazeb2.com/file/harperfamily-media/119228256_10157057171297581_8630086706927086752_o-485x1024.jpg)
 Roger Harper's Swedish take on bacon and cabbage
 
 [Eat this in remembrance of me (PDF)](https://f001.backblazeb2.com/file/harperfamily-media/Eat-this-in-remembrance-of-me.pdf)

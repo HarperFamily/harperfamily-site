@@ -1,6 +1,6 @@
 ---
 title: Message sent
-permalink: /contact/success
+permalink: /contact/success/
 ---
 
 Thanks!

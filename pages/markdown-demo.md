@@ -119,11 +119,11 @@ end
 
 ### Small image
 
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![](https://github.com/11ty/eleventy-base-blog/blob/main/content/blog/fourthpost/possum.png?raw=true)
 
 ### Large image
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+![](https://raw.githubusercontent.com/11ty/eleventy-base-blog/refs/heads/main/content/blog/fourthpost/possum.png)
 
 ### Definition lists can be used with HTML syntax.
 

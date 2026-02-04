@@ -1,41 +1,35 @@
 const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
-const htmlmin = require("html-minifier");
+const htmlmin = require("html-minifier-terser");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const Image = require("@11ty/eleventy-img");
-const path = require('path');
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 
-const widths = [330, 660, 990];
-const imgWidths = widths
-  .concat(widths.map((w) => w * 2))
-  .filter((v, i, s) => s.indexOf(v) === i);
+const imgWidths = [330, 660, 990, 1320, 1980];
 const imgSizes = "(min-width: 712px) 712px, 100vw";
 
-async function imageShortcode(src, alt, sizes = imgSizes) {
-  let metadata = await Image(src, {
-    widths: imgWidths,
-    formats: ["avif", "jpeg"],
-    outputDir: "./_site/img/",
-  });
-
-  let imageAttributes = {
-    alt,
-    sizes,
-    loading: "lazy",
-    decoding: "async",
-  };
-
-  // Throw an error on missing alt in `imageAttributes` (alt="" works okay)
-  return Image.generateHTML(metadata, imageAttributes);
-}
-
-module.exports = function (eleventyConfig) {
+module.exports = async function (eleventyConfig) {
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
   eleventyConfig.addPlugin(pluginRss);
+
+  // Image HTML Transform: all <img> and <picture> in output are optimized automatically
+  // https://www.11ty.dev/docs/plugins/image/#html-transform
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    formats: ["avif", "webp", "jpeg"],
+    widths: imgWidths,
+    htmlOptions: {
+      imgAttributes: {
+        loading: "lazy",
+        decoding: "async",
+        sizes: imgSizes,
+      },
+    },
+    // Don’t fail build when remote images are unreachable (e.g. offline)
+    failOnError: false,
+  });
 
   // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
   // layout aliases! Say you have a bunch of existing content using
@@ -107,15 +101,15 @@ module.exports = function (eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
-  // Minify HTML output
-  eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
-    if (outputPath.indexOf(".html") > -1) {
-      let minified = htmlmin.minify(content, {
+  // Minify HTML output (Eleventy v3: use this.page.outputPath)
+  eleventyConfig.addTransform("htmlmin", function (content) {
+    const outputPath = this.page?.outputPath;
+    if (typeof outputPath === "string" && outputPath.indexOf(".html") > -1) {
+      return htmlmin.minify(content, {
         useShortDoctype: true,
         removeComments: true,
         collapseWhitespace: true,
       });
-      return minified;
     }
     return content;
   });
@@ -129,39 +123,31 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/inline.css");
 
-  /* Markdown Plugins */
-  let markdownIt = require("markdown-it");
-  let markdownItAnchor = require("markdown-it-anchor");
-  let markdownItEleventyImg = require("markdown-it-eleventy-img");
-  let options = {
+  /* Markdown: images get sizes/loading/decoding so the Image HTML Transform can optimize them */
+  const markdownIt = (await import("markdown-it")).default;
+  const markdownItAnchor = (await import("markdown-it-anchor")).default;
+  const options = {
     html: true,
     breaks: true,
     linkify: true,
   };
-  let opts = {
-    permalink: false,
+  const opts = { permalink: false };
+
+  const md = markdownIt(options).use(markdownItAnchor, opts);
+
+  // Override image rendering so markdown ![alt](url) outputs img with sizes (required by eleventy-img HTML Transform)
+  const defaultImageRender =
+    md.renderer.rules.image ||
+    ((tokens, idx, options, env, self) => self.renderToken(tokens, idx, options));
+  md.renderer.rules.image = (tokens, idx, options, env, self) => {
+    const token = tokens[idx];
+    token.attrSet("loading", "lazy");
+    token.attrSet("decoding", "async");
+    token.attrSet("sizes", imgSizes);
+    return defaultImageRender(tokens, idx, options, env, self);
   };
 
-  eleventyConfig.setLibrary(
-    "md",
-    markdownIt(options)
-      .use(markdownItAnchor, opts)
-      .use(markdownItEleventyImg, {
-        imgOptions: {
-          widths: imgWidths,
-          outputDir: "./_site/img/",
-        },
-        globalAttributes: {
-          class: "markdown-image",
-          decoding: "async",
-          sizes: imgSizes,
-        },
-        // resolvePath: (filepath, env) => path.join("./static/uploads", path.basename(filepath))
-        resolvePath: (filepath, env) => path.join(".", filepath)
-      })
-  );
-
-  eleventyConfig.addAsyncShortcode("image", imageShortcode);
+  eleventyConfig.setLibrary("md", md);
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],

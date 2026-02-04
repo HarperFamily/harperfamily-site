@@ -7,7 +7,7 @@ tags:
   - "2013-reunion"
 ---
 
-[{% image "https://f001.backblazeb2.com/file/harperfamily-media/harper-group-photo-2006.jpg", "harper-group-photo-2006" %}](https://f001.backblazeb2.com/file/harperfamily-media/harper-group-photo-2006.jpg)
+[![harper-group-photo-2006](https://f001.backblazeb2.com/file/harperfamily-media/harper-group-photo-2006.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/harper-group-photo-2006.jpg)
 
 Time: Saturday 6th at 2pm
 

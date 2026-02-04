@@ -7,7 +7,7 @@ tags:
   - "2013-reunion"
 ---
 
-[{% image "https://f001.backblazeb2.com/file/harperfamily-media/0268.iStock_kidspainting.jpg-550x0.jpg", "0268.iStock_kidspainting.jpg-550x0" %}](https://f001.backblazeb2.com/file/harperfamily-media/0268.iStock_kidspainting.jpg-550x0.jpg)
+[![0268.iStock_kidspainting.jpg-550x0](https://f001.backblazeb2.com/file/harperfamily-media/0268.iStock_kidspainting.jpg-550x0.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/0268.iStock_kidspainting.jpg-550x0.jpg)
 
 You don't need to be an artist to take part, just join in on the fun. All will be revealed on the day!
 

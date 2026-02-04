@@ -7,7 +7,7 @@ tags:
   - "2013-reunion"
 ---
 
-[{% image "https://f001.backblazeb2.com/file/harperfamily-media/kids-art.jpg", "kids-art" %}](https://f001.backblazeb2.com/file/harperfamily-media/kids-art.jpg)
+[![kids-art](https://f001.backblazeb2.com/file/harperfamily-media/kids-art.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/kids-art.jpg)
 
 **Friday 5th at 10.30am**
 

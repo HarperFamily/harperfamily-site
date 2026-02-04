@@ -16,11 +16,11 @@ numberOfLatestPostsToShow: 3
       <a href="/about" class="btn">About the Harper Family</a>
     </div>
 
-    {% image "./static/uploads/harper-family-2013.jpg", "formal group photo of over 200 Harpers", "100vw" %}
+    <img src="/static/uploads/harper-family-2013.jpg" alt="formal group photo of over 200 Harpers" loading="lazy" decoding="async" sizes="100vw">
 
   </div>
 
-  {{ layoutContent | safe }}
+  {{ content | safe }}
 
   {% include "components/latestposts.njk" %}
 

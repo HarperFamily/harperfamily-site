@@ -5,7 +5,7 @@ permalink: /blog/index.html
 ---
 <h1>{{ title }}</h1>
 
-{{ layoutContent | safe }}
+{{ content | safe }}
 
 <form class="form--search" action="https://google.com/search" method="get">
   <input type="hidden" name="sitesearch" value="{{ metadata.url }}" />

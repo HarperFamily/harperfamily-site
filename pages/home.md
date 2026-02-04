@@ -17,7 +17,7 @@ numberOfLatestPostsToShow: 3
 
 <div class="card-img">
 
-[{% image "https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Spread-and-Cover-1536x1024.jpg", "the harper family cookbook lays open on a spread showing a sticky toffee putting recipe and a photo of caramel sauce being poured on a pudding, behind it the cover of the harper family cookbook with an image biscuits neatly stacked and wrapped in gingham" %}](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Spread-and-Cover.jpg)
+[![the harper family cookbook lays open on a spread showing a sticky toffee putting recipe and a photo of caramel sauce being poured on a pudding, behind it the cover of the harper family cookbook with an image biscuits neatly stacked and wrapped in gingham](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Spread-and-Cover-1536x1024.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Spread-and-Cover.jpg)
 
 </div>
 
