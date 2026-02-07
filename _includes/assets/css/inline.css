@@ -250,7 +250,7 @@ main article :not(picture) > img {
 .gallery {
   display: grid;
   gap: var(--s0);
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 @media (min-width: 600px) {
@@ -261,14 +261,12 @@ main article :not(picture) > img {
     right: 50%;
     margin-left: -40vw;
     margin-right: -40vw;
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-@media (min-width: 1400px) {
-  .gallery {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+.gallery > p {
+  padding: 0;
+  margin: 0;
 }
 
 main article .gallery picture,
