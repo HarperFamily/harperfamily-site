@@ -10,7 +10,9 @@ tags:
 
 [![the harper family cookbook lays open on a spread showing a sticky toffee putting recipe and a photo of caramel sauce being poured on a pudding, behind it the cover of the harper family cookbook with an image biscuits neatly stacked and wrapped in gingham](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Spread-and-Cover-1536x1024.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Spread-and-Cover.jpg)
 
-![markdown image test](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Inside_Mockup_1-1536x1024.jpg)
+![harper family cookbook lays open on a spread showing a recipe for plum pudding](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Inside_Mockup_1-1536x1024.jpg)
+
+[Download the Harper family Cookbook (PDF)](https://f001.backblazeb2.com/file/harperfamily-media/Harper%20Cookbook_PDF.pdf)
 
 The Harper Family Cookbook is a collection of recipes contributed and curated by members of the family. Packed with 139 recipes, the book contains a wide variety of recipes, from savoury stews to delicious desserts. You’ll find old recipes for biscuits, cakes and breads which have become family favourites and hold good memories of times spent with family around a table, cup of tea and freshly baked biscuit in hand.
 
@@ -46,3 +48,5 @@ The goal of this book is to help our extended family preserve and enjoy the amaz
 All roads lead to the kitchen when it comes to the Harper clan and this book will justifiably inspire you to delve into the past as well as the present to create delicious food to be enjoyed by the whole family.
 
 Written by Gwyneth Munt
+
+[Download the Harper family Cookbook (PDF)](https://f001.backblazeb2.com/file/harperfamily-media/Harper%20Cookbook_PDF.pdf)
