@@ -18,6 +18,11 @@
 
 		{% include "components/footer.njk" %}
 
+		{% js %}
+		{% include "assets/js/inline.js" %}
+		{% endjs %}
+
+		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
 	</body>
 
 </html>
