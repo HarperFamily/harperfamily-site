@@ -88,6 +88,8 @@ export default async function(eleventyConfig) {
   // Only enable Netlify Image CDN URL transformation in production builds
   const isProd = process.env.ELEVENTY_RUN_MODE === "build" || process.env.NODE_ENV === "production";
   if (isProd) {
+    // Avoid local image processing in production — only emit stats (metadata)
+    imagePluginOptions.statsOnly = true;
     imagePluginOptions.urlFormat = ({ src, width, format }) => {
       const fm = format === "jpeg" ? "jpg" : format;
       // Netlify Image CDN expects a `url` param for the source image and accepts
