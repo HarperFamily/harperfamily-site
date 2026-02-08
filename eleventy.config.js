@@ -70,16 +70,10 @@ export default async function(eleventyConfig) {
 
   // Image HTML Transform: all <img> and <picture> in output are optimized automatically
   // https://www.11ty.dev/docs/plugins/image/#html-transform
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+  // We use `urlFormat` to point images at Netlify Image CDN in production only.
+  const imagePluginOptions = {
     formats: ["avif", "webp", "auto"],
     widths: imgWidths,
-    // When deploying behind a CDN (e.g. Netlify Image CDN) you can set
-    // NETLIFY_IMAGE_CDN_URL to the CDN base URL (no trailing slash).
-    // The plugin will then output src URLs pointing at that CDN.
-    outputDir: "./_site/img/",
-    urlPath: process.env.NETLIFY_IMAGE_CDN_URL
-      ? `${process.env.NETLIFY_IMAGE_CDN_URL}/img/`
-      : "/img/",
     htmlOptions: {
       imgAttributes: {
         loading: "lazy",
@@ -89,7 +83,21 @@ export default async function(eleventyConfig) {
     },
     // Don’t fail build when remote images are unreachable (e.g. offline)
     failOnError: false,
-  });
+  };
+
+  // Only enable Netlify Image CDN URL transformation in production builds
+  const isProd = process.env.ELEVENTY_RUN_MODE === "build" || process.env.NODE_ENV === "production";
+  if (isProd) {
+    imagePluginOptions.urlFormat = ({ src, width, format }) => {
+      const fm = format === "jpeg" ? "jpg" : format;
+      // Netlify Image CDN expects a `url` param for the source image and accepts
+      // w and fm for width and format. Use a relative `/.netlify/images` path so
+      // the CDN on the site domain handles the transform.
+      return `/.netlify/images?url=${encodeURIComponent(src)}&w=${width}&fm=${fm}`;
+    };
+  }
+
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, imagePluginOptions);
 
   // Configuration API: use eleventyConfig.addLayoutAlias(from, to) to add
   // layout aliases! Say you have a bunch of existing content using
