@@ -73,6 +73,13 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
     formats: ["avif", "webp", "auto"],
     widths: imgWidths,
+    // When deploying behind a CDN (e.g. Netlify Image CDN) you can set
+    // NETLIFY_IMAGE_CDN_URL to the CDN base URL (no trailing slash).
+    // The plugin will then output src URLs pointing at that CDN.
+    outputDir: "./_site/img/",
+    urlPath: process.env.NETLIFY_IMAGE_CDN_URL
+      ? `${process.env.NETLIFY_IMAGE_CDN_URL}/img/`
+      : "/img/",
     htmlOptions: {
       imgAttributes: {
         loading: "lazy",
