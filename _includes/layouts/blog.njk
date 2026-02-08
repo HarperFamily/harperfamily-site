@@ -8,10 +8,10 @@ permalink: /blog/index.html
 {{ content | safe }}
 
 <form class="form--search" action="https://google.com/search" method="get">
-  <input type="hidden" name="sitesearch" value="{{ metadata.url }}" />
-  <input type="search" name="q" placeholder="Search site with Google" />
+  <input type="hidden" name="sitesearch" value="{{ metadata.url }}"/>
+  <input type="search" name="q" placeholder="Search site with Google"/>
   <button type="submit">Search</button>
 </form>
 
-{% set postslist = collections.post %}
+{% set postslist = collections.posts %}
 {% include "components/postslist.njk" %}

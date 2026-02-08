@@ -8,9 +8,9 @@ tags:
   - art
 ---
 
-[![Art piece by Patricia Harper containing the signed finger print of around 200 Harpers, arranged to form a single large finger print.](/static/uploads/harper-family-finger-print-framed-scan.jpg)](/static/uploads/harper-family-finger-print.jpg)
+[![Art piece by Patricia Harper containing the signed finger print of around 200 Harpers, arranged to form a single large finger print.](../../public/img/harper-family-finger-print-framed-scan.jpg)](/img/harper-family-finger-print.jpg)
 
-<small>[Download high quality scan](/static/uploads/harper-family-finger-print.jpg)</small>
+<small>[Download high quality scan](/img/harper-family-finger-print.jpg)</small>
 
 As an artist, I had the honour of collaborating on a unique art piece at The Harper reunion in April 2013. The project was inspired by the Harper family's Christian heritage, and the idea of unity through faith, love and commitment to one another. The art piece was created by collecting fingerprints from each family member and combining them into a cohesive design. Each fingerprint is unique and represents everyone’s individuality and personal history, and together they created a beautiful and meaningful work of art.
 

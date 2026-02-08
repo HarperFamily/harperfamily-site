@@ -1,7 +1,7 @@
 {% set numberOfLatestPostsToShow = 3 %}
-{% set postsCount = collections.post | length %}
+{% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-{% set postslist = collections.post | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% set showTags = false %}
 <section>

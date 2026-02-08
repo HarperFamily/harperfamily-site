@@ -3,10 +3,10 @@
 	"tasks": [
 		{
 			"type": "npm",
-			"script": "serve",
+			"script": "start",
 			"problemMatcher": [],
-			"label": "npm: serve",
-			"detail": "npx eleventy --serve"
+			"label": "npm: start",
+			"detail": "npx @11ty/eleventy --serve --quiet"
 		}
 	]
 }

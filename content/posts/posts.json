@@ -3,6 +3,6 @@
   "permalink": "blog/{{ title | slug }}/index.html",
   "author": "Graham Harper",
   "tags": [
-    "post"
+    "posts"
   ]
 }
