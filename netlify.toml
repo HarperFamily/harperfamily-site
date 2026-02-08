@@ -39,3 +39,6 @@ package = "netlify-plugin-cache"
     "_site/img/", # Eleventy Image Disk Cache
     ".cache" # Remote Asset Cache
   ]
+
+[images]
+remote_images = ["https://f001.backblazeb2.com/file/harperfamily-media/.*"]

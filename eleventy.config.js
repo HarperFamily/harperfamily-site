@@ -90,66 +90,7 @@ export default async function(eleventyConfig) {
   if (isProd) {
     // Avoid local image processing in production — only emit stats (metadata)
     imagePluginOptions.statsOnly = true;
-    // Build a remoteImageMetadata map so eleventy-img doesn't attempt to
-    // fetch/process remote images when `statsOnly` is enabled. We parse
-    // dimensions from filenames when possible (e.g. `-683x1024.jpg`). For
-    // any remote URL without explicit dimensions we fall back to a sane
-    // width and approximate height to avoid build failures.
-    const fs = await import("fs/promises");
-    const path = await import("path");
-
-    async function walk(dir, fileList = []) {
-      const entries = await fs.readdir(dir, { withFileTypes: true });
-      for (const e of entries) {
-        const p = path.join(dir, e.name);
-        if (e.isDirectory()) {
-          // skip node_modules and _site
-          if (e.name === "node_modules" || e.name === "_site") continue;
-          await walk(p, fileList);
-        } else if (/(\.md$|\.njk$|\.html$|\.js$|\.json$)/i.test(e.name)) {
-          fileList.push(p);
-        }
-      }
-      return fileList;
-    }
-
-    const files = await walk(process.cwd());
-    const urlRe = /https?:\/\/[^"'\)\s]+\.(?:jpe?g|png|webp|gif|avif)(?:\?[^\s"']*)?/gi;
-    const remoteUrls = new Set();
-    for (const f of files) {
-      try {
-        const content = await fs.readFile(f, "utf8");
-        let m;
-        while ((m = urlRe.exec(content))) {
-          remoteUrls.add(m[0]);
-        }
-      } catch (e) {
-        // ignore unreadable files
-      }
-    }
-
-    const remoteImageMetadata = {};
-    const fallbackWidth = imgWidths[imgWidths.length - 1] || 1980;
-    for (const url of remoteUrls) {
-      // try to parse -WIDTHxHEIGHT or _WIDTHxHEIGHT just before extension
-      const sizeMatch = url.match(/[-_](\d+)x(\d+)\.(jpe?g|png|webp|gif|avif)(?:$|\?)/i);
-      const extMatch = url.match(/\.(jpe?g|png|webp|gif|avif)(?:$|\?)/i);
-      const ext = extMatch ? extMatch[1].toLowerCase().replace("jpeg", "jpg") : null;
-      if (sizeMatch) {
-        const w = parseInt(sizeMatch[1], 10);
-        const h = parseInt(sizeMatch[2], 10);
-        remoteImageMetadata[url] = { width: w, height: h, format: ext || undefined };
-      } else {
-        // fallback: assume landscape-ish aspect ratio if unknown
-        const w = fallbackWidth;
-        const h = Math.round((w * 2) / 3);
-        remoteImageMetadata[url] = { width: w, height: h, format: ext || undefined };
-      }
-    }
-
-    // attach the map to plugin options
-    imagePluginOptions.remoteImageMetadata = remoteImageMetadata;
-    imagePluginOptions.urlFormat = ({ src, width, format }) => {
+    imagePluginOptions.urlFormat = ({hash, src, width, format }) => {
       const fm = format === "jpeg" ? "jpg" : format;
       // Netlify Image CDN expects a `url` param for the source image and accepts
       // w and fm for width and format. Use a relative `/.netlify/images` path so
