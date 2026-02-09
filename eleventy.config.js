@@ -102,7 +102,7 @@ export default async function (eleventyConfig) {
       // Netlify Image CDN expects a `url` param for the source image and accepts
       // w and fm for width and format. Use a relative `/.netlify/images` path so
       // the CDN on the site domain handles the transform.
-      return `/.netlify/images?url=${encodeURIComponent(src.replace("content", ""))}&w=${width}&fm=${fm}`;
+      return `/.netlify/images?url=${encodeURIComponent(src.replace("content", "").replace("public", ""))}&w=${width}&fm=${fm}`;
     };
   }
 
