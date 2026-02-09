@@ -12,11 +12,7 @@ eleventyNavigation:
   order: 1
 ---
 
-## About this site
-
 The online home of the Harper clan, descendants of Samuel Harper (1881-1957) of Kilkenny, Ireland. You'll find family stories, photos, recordings, artwork and historical artefacts, made available to everyone in the extended family. You'll also find information about our family reunions which take place around every 7 years.
-
-The site is maintained by Graham Harper, the source code is on [GitHub](https://github.com/HarperFamily/harperfamily-site) and hosted on [Netlify](https://netlify.com). If you're interested in helping with the site, contributions are welcome. Get in [contact](/contact) or visit the [GitHub repo](https://github.com/HarperFamily/harperfamily-site).
 
 ## Harper Family History
 
@@ -31,3 +27,7 @@ Robert and Mary’s eldest son Edward (25) eloped and married his sweetheart Mar
 Cramer’s Grove was a dairy farm in 1865 and the “white gold” of then was churned by hand, on the farm into butter, and then sold on the market. To date, the dairy tradition continues with the cream now producing the delicious Cramer’s Grove ice-cream by Nigel and Carol, who are the fifth generation of Harpers to farm at Cramer’s Grove. The annuities of 19 pounds sterling were paid twice yearly for one hundred years until 1980 when Sam R. Harper (Victors son) made the last payment on Cramer’s Grove and became the first freeholder of the title.
 
 As in previous generations, three sons of Edward namely Robert, John and William emigrated to Canada, leaving their youngest son Sam to inherit Cramer’s Grove. Sam and his wife Mary Jane Leech had a family of ten; nine boys and one girl. Farms were bought for six sons who farmed extensively in close proximity to the city of Kilkenny. They were George and Tilly at Annamult, Bob and Sylvia at Cantwell’s Court, Jack and Mabel at Ballyfoyle, Sam and Annie at Sandford’s Court, Victor and Alice at New Orchard with Cramer’s Grove and Leonard and Bertha at Balleven. Consequently the Harper family were anchored to the land of County Kilkenny. Fourth son Reverent William Harper married Elizabeth and lived in Belfast, and the only daughter Edith married Joe Poole and farmed at Ballybeg, Co. Wexford.
+
+## About this site
+
+The site is maintained by Graham Harper, the source code is on [GitHub](https://github.com/HarperFamily/harperfamily-site) and hosted on [Netlify](https://netlify.com). If you're interested in helping with the site, contributions are welcome. Get in [contact](/contact) or visit the [GitHub repo](https://github.com/HarperFamily/harperfamily-site).
