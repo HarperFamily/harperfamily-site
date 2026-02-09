@@ -75,7 +75,7 @@ export default async function (eleventyConfig) {
   // const imgSizes = "(min-width: 712px) 712px, 100vw";
   const imagePluginOptions = {
     formats: ["avif", "webp", "auto"],
-    widths: [330, 660, 990, 1320, 1980],
+    widths: [330, 660, 990, 1320],
     htmlOptions: {
       imgAttributes: {
         loading: "lazy",
@@ -93,7 +93,7 @@ export default async function (eleventyConfig) {
     // Avoid local image processing in production — only emit stats (metadata)
     imagePluginOptions.statsOnly = true;
     imagePluginOptions.remoteImageMetadata = {
-      width: 1980,
+      width: 1320,
       height: 1320,
       format: "jpeg",
     };
