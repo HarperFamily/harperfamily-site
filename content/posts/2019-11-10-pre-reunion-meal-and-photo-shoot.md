@@ -1,6 +1,6 @@
 ---
 title: "Pre-reunion meal and photo shoot"
-date: 2019-11-10T00:00:00.000Z
+date: 2019-11-10
 author: Graham Harper
 tags:
   - "food"

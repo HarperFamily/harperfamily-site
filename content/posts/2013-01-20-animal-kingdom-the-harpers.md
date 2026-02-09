@@ -1,6 +1,6 @@
 ---
 title: "Animal Kingdom - The Harpers"
-date: 2013-01-20T00:00:00.000Z
+date: 2013-01-20
 author: Graham Harper
 tags:
   - "video"

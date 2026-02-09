@@ -1,6 +1,6 @@
 ---
 title: "The Harper Reunion on KCLR"
-date: 2013-04-08T00:00:00.000Z
+date: 2013-04-08
 author: Graham Harper
 tags:
   - "audio"

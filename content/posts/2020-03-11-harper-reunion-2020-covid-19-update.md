@@ -1,6 +1,6 @@
 ---
 title: "Harper Reunion 2020—COVID-19 Update"
-date: 2020-03-11T00:00:00.000Z
+date: 2020-03-11
 author: Jill Callanan
 tags:
   - "news"

@@ -1,6 +1,6 @@
 ---
 title: "High Resolution Family Photos"
-date: 2013-05-01T00:00:00.000Z
+date: 2013-05-01
 author: Graham Harper
 tags:
   - "2013-reunion"

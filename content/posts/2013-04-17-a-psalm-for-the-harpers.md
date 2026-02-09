@@ -1,6 +1,6 @@
 ---
 title: "A Psalm for The Harpers"
-date: 2013-04-17T00:00:00.000Z
+date: 2013-04-17
 author: Graham Harper
 tags:
   - "2013-reunion"

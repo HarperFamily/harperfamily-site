@@ -1,6 +1,6 @@
 ---
 title: "Sam Harper's funeral"
-date: 2020-09-11T00:00:00.000Z
+date: 2020-09-11
 author: Graham Harper
 tags:
   - "events"

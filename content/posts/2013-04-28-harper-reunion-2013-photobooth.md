@@ -1,6 +1,6 @@
 ---
 title: "Harper Reunion 2013 Photobooth"
-date: 2013-04-28T00:00:00.000Z
+date: 2013-04-28
 author: Graham Harper
 tags:
   - "2013-reunion"

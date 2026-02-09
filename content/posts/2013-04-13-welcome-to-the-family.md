@@ -1,6 +1,6 @@
 ---
 title: "Welcome To The Family"
-date: 2013-04-13T00:00:00.000Z
+date: 2013-04-13
 author: Graham Harper
 tags:
   - "video"

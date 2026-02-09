@@ -1,6 +1,6 @@
 ---
 title: "Virtual Harper Reunion reported in The Kilkenny People"
-date: 2020-05-07T00:00:00.000Z
+date: 2020-05-07
 author: Graham Harper
 tags:
   - "articles"

@@ -1,6 +1,6 @@
 ---
 title: "Talent Show"
-date: 2013-03-26T00:00:00.000Z
+date: 2013-03-26
 author: Graham Harper
 tags:
   - "activities"

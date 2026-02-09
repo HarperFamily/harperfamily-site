@@ -1,6 +1,6 @@
 ---
 title: "The Death of W.D. Harper"
-date: 2013-04-01T00:00:00.000Z
+date: 2013-04-01
 author: Graham Harper
 tags:
   - "articles"

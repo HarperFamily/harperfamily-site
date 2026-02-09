@@ -1,13 +1,13 @@
 ---
 title: "The Harper Reunion 2013"
-date: 2013-04-10T00:00:00.000Z
+date: 2013-04-10
 author: jill Harper
 tags:
   - "events"
   - 2013-reunion
 ---
 
-[![274 harper family members seated on a grassy hill on a sunny day](https://f001.backblazeb2.com/file/harperfamily-media/DSC3683c-1024x485.jpg)](())
+[![274 harper family members seated on a grassy hill on a sunny day](https://f001.backblazeb2.com/file/harperfamily-media/DSC3683c-1024x485.jpg)](<()>)
 
 When Sgt. Robert Harper was posted to Kilkenny in the early 1800’s, he hardly imagined that just shy of 200 yrs later 274 of his descendants would gather in Kilkenny to celebrate the Harper family.
 

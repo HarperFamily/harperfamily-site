@@ -1,6 +1,6 @@
 ---
 title: "John Bolton Harper in The Vancouver Sun 1947"
-date: 2013-03-25T00:00:00.000Z
+date: 2013-03-25
 originDate: "1947"
 author: Graham Harper
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Emigration Through The Centuries Conference"
-date: 2013-03-18T00:00:00.000Z
+date: 2013-03-18
 author: Graham Harper
 tags:
   - "activities"

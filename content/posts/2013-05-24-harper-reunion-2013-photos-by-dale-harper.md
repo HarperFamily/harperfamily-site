@@ -1,6 +1,6 @@
 ---
 title: "Harper Reunion 2013 Photos by Dale Harper"
-date: 2013-05-24T00:00:00.000Z
+date: 2013-05-24
 author: Graham Harper
 tags:
   - "2013-reunion"
@@ -278,6 +278,5 @@ A big thank you to Dale for taking these fantastic photographs.
 [![](https://f001.backblazeb2.com/file/harperfamily-media/DSC_3388_Large_Original.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/DSC_3388_Large_Original.jpg)
 
 [![](https://f001.backblazeb2.com/file/harperfamily-media/DSC_3394_Large_Original.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/DSC_3394_Large_Original.jpg)
-
 
 </div>

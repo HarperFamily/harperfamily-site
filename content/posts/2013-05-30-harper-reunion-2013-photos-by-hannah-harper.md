@@ -1,6 +1,6 @@
 ---
 title: "Harper Reunion 2013 Photos by Hanna Harper"
-date: 2013-05-30T00:00:00.000Z
+date: 2013-05-30
 author: Graham Harper
 tags:
   - "2013-reunion"

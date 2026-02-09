@@ -1,6 +1,6 @@
 ---
 title: "Annie Harper's Funeral Service"
-date: 2014-01-02T00:00:00.000Z
+date: 2014-01-02
 author: Graham Harper
 tags:
   - "audio"
