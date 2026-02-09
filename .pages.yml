@@ -22,6 +22,12 @@ content:
       - name: body
         label: Body
         type: rich-text
+      - name: tags
+        label: Tags
+        type: string
+        list:
+          max: 5
+          collapsible: false
   - name: site
     label: Site settings
     path: src/_data/metadata.json
