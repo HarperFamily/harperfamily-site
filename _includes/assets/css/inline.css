@@ -352,6 +352,11 @@ a[href].btn {
   gap: var(--s-2);
 }
 
+/* Hide honeypot field from spam bots */
+.hidden {
+  display: none;
+}
+
 .stack-s3 > * + * {
   margin-block-start: var(--s3);
 }
