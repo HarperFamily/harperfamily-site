@@ -64,32 +64,32 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| LBOX-01 | — | Pending |
-| LBOX-02 | — | Pending |
-| LBOX-03 | — | Pending |
-| LBOX-04 | — | Pending |
-| LBOX-05 | — | Pending |
-| LBOX-06 | — | Pending |
-| LBOX-07 | — | Pending |
-| LBOX-08 | — | Pending |
-| LBOX-09 | — | Pending |
-| GLAY-01 | — | Pending |
-| GLAY-02 | — | Pending |
-| GLAY-03 | — | Pending |
-| GLAY-04 | — | Pending |
-| GLAY-05 | — | Pending |
-| GPAG-01 | — | Pending |
-| GPAG-02 | — | Pending |
-| GPAG-03 | — | Pending |
-| GPAG-04 | — | Pending |
-| GPAG-05 | — | Pending |
-| GPAG-06 | — | Pending |
+| LBOX-01 | Phase 1 | Pending |
+| LBOX-02 | Phase 1 | Pending |
+| LBOX-03 | Phase 1 | Pending |
+| LBOX-04 | Phase 1 | Pending |
+| LBOX-05 | Phase 1 | Pending |
+| LBOX-06 | Phase 1 | Pending |
+| LBOX-07 | Phase 1 | Pending |
+| LBOX-08 | Phase 1 | Pending |
+| LBOX-09 | Phase 1 | Pending |
+| GLAY-01 | Phase 2 | Pending |
+| GLAY-02 | Phase 2 | Pending |
+| GLAY-03 | Phase 2 | Pending |
+| GLAY-04 | Phase 2 | Pending |
+| GLAY-05 | Phase 2 | Pending |
+| GPAG-01 | Phase 3 | Pending |
+| GPAG-02 | Phase 3 | Pending |
+| GPAG-03 | Phase 3 | Pending |
+| GPAG-04 | Phase 3 | Pending |
+| GPAG-05 | Phase 3 | Pending |
+| GPAG-06 | Phase 3 | Pending |
 
 **Coverage:**
 - v1 requirements: 20 total
-- Mapped to phases: 0
-- Unmapped: 20 ⚠️
+- Mapped to phases: 20
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-14*
-*Last updated: 2026-02-14 after initial definition*
+*Last updated: 2026-02-14 after roadmap creation*
