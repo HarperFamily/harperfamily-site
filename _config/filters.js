@@ -169,14 +169,17 @@ export default function(eleventyConfig) {
         newAttributes += ` class="lightgallery"`;
       }
 
+      // Add data-src attribute (lightGallery uses this to determine which image to show)
+      newAttributes += ` data-src="${highResUrl}"`;
+
       // Add data-gallery attribute
       newAttributes += ` data-gallery="${galleryId}"`;
 
-      // Add data-title if alt text exists
+      // Add data-sub-html for caption if alt text exists
       if (altText) {
         // Escape double quotes in alt text
         const escapedAlt = altText.replace(/"/g, "&quot;");
-        newAttributes += ` data-title="${escapedAlt}"`;
+        newAttributes += ` data-sub-html="${escapedAlt}"`;
       }
 
       return `<a ${newAttributes}>${innerContent}</a>`;
