@@ -18,10 +18,10 @@
     }
 
     // Initialize lightGallery on the body element
-    // Images will be made clickable via data-lg-src attributes (added in Plan 02)
+    // Images are wrapped with .lightgallery class and data-gallery/data-title attributes
     var gallery = lightGallery(document.body, {
-      // Use selector mode (not dynamic) - images will have data-lg-src attributes
-      selector: '[data-lg-src]',
+      // Use selector mode - target links with lightgallery class
+      selector: '.lightgallery',
 
       // Animation settings for smooth zoom effect
       speed: 500,
@@ -33,7 +33,8 @@
       // UI settings
       download: false,
       counter: false,
-      getCaptionFromTitleOrAlt: true,
+      // Caption comes from data-title attribute (set by transform)
+      subHtmlSelectorRelative: false,
 
       // Touch and keyboard support (lightGallery defaults are good)
       enableSwipe: true,
