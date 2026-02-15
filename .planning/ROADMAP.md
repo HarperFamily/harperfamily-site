@@ -12,7 +12,7 @@ This roadmap delivers a complete image viewing experience for the Harper Family 
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Lightbox Viewer** - Site-wide image lightbox with navigation and captions
+- [x] **Phase 1: Lightbox Viewer** - Site-wide image lightbox with navigation and captions
 - [ ] **Phase 2: Gallery Layout Component** - Justified-row gallery layout for image grids
 - [ ] **Phase 3: Gallery Page** - Aggregated gallery of all site images
 
@@ -32,10 +32,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   4. User can close the lightbox via X button, escape key, or backdrop click
   5. User can pinch-to-zoom on images in the lightbox on mobile devices
 
-**Plans**: TBD
+**Plans**: 2/2 complete
 
 Plans:
-- [ ] TBD
+- [x] 01-01: Install lightGallery library
+- [x] 01-02: Automatic image lightbox wrapper
+
+**Completed**: 2026-02-15
 
 ### Phase 2: Gallery Layout Component
 **Goal**: Users see images in clean justified-row layout with equal-height rows and no empty spaces
@@ -80,7 +83,7 @@ Phases execute in numeric order: 1 → 2 → 3
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Lightbox Viewer | 0/TBD | Not started | - |
+| 1. Lightbox Viewer | 2/2 | ✓ Complete | 2026-02-15 |
 | 2. Gallery Layout Component | 0/TBD | Not started | - |
 | 3. Gallery Page | 0/TBD | Not started | - |
 

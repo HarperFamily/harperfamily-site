@@ -6,16 +6,16 @@ See: .planning/PROJECT.md (updated 2026-02-14)
 
 **Core value:** Users can view any image on the site in a full-viewport lightbox with navigation, captions, and touch gestures — making the site's photography a first-class experience.
 
-**Current focus:** Phase 1 - Lightbox Viewer
+**Current focus:** Phase 2 - Gallery Layout Component
 
 ## Current Position
 
-Phase: 1 of 3 (Lightbox Viewer)
-Plan: 2 of 2 in current phase
-Status: Complete
-Last activity: 2026-02-15 — Completed 01-02: Auto-wrap images with lightbox markup
+Phase: 2 of 3 (Gallery Layout Component)
+Plan: 0 of TBD in current phase
+Status: Ready to plan
+Last activity: 2026-02-15 — Phase 1 complete: Lightbox Viewer deployed
 
-Progress: [████████████████████] 100%
+Progress: [███████░░░░░░░░░░░░░] 33%
 
 ## Performance Metrics
 
