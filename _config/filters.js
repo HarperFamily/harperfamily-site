@@ -158,6 +158,9 @@ export default function(eleventyConfig) {
       // Build new attributes for the <a> tag
       let newAttributes = aAttributes;
 
+      // Update href to point to high-res image (lightGallery prioritizes href over data-src)
+      newAttributes = newAttributes.replace(/\bhref=["']([^"']*)["']/, `href="${highResUrl}"`);
+
       // Add or append to class attribute
       if (/\bclass=["']/.test(newAttributes)) {
         newAttributes = newAttributes.replace(/\bclass=["']([^"']*)["']/, (m, classes) => {
