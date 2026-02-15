@@ -11,28 +11,28 @@ See: .planning/PROJECT.md (updated 2026-02-14)
 ## Current Position
 
 Phase: 1 of 3 (Lightbox Viewer)
-Plan: 1 of 2 in current phase
-Status: Executing
-Last activity: 2026-02-15 — Completed 01-01: Install and integrate lightGallery
+Plan: 2 of 2 in current phase
+Status: Complete
+Last activity: 2026-02-15 — Completed 01-02: Auto-wrap images with lightbox markup
 
-Progress: [██████████] 50%
+Progress: [████████████████████] 100%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: 2 minutes
-- Total execution time: 0.03 hours
+- Total plans completed: 2
+- Average duration: 8 minutes
+- Total execution time: 0.27 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-lightbox-viewer | 1 | 2 min | 2 min |
+| 01-lightbox-viewer | 2 | 16 min | 8 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (2 min)
-- Trend: Just started
+- Last 5 plans: 01-01 (2 min), 01-02 (14 min)
+- Trend: Building momentum
 
 *Updated after each plan completion*
 
@@ -49,6 +49,10 @@ Recent decisions affecting current work:
 - Use UMD script tags for lightGallery instead of ES modules (UglifyJS doesn't support ES6+) — 01-01
 - Load library scripts before bundled JS to ensure global availability — 01-01
 - Minimal CSS overrides for lightGallery (only font consistency) — 01-01
+- Use regex for HTML parsing instead of external dependencies (keeps build pipeline simple) — 01-02
+- Add data-src attribute for lightGallery image source (required for selector mode) — 01-02
+- Use data-sub-html instead of data-title for captions (lightGallery standard) — 01-02
+- Group images by page slug for gallery navigation isolation — 01-02
 
 ### Pending Todos
 
@@ -61,7 +65,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-15
-Stopped at: Completed 01-01-PLAN.md (Install and integrate lightGallery)
+Stopped at: Completed 01-02-PLAN.md (Auto-wrap images with lightbox markup) - Phase 1 complete
 Resume file: None
 
 ---
