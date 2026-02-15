@@ -18,8 +18,13 @@
 
 		{% include "components/footer.njk" %}
 
+		{#- lightGallery library and zoom plugin (must load before initialization) #}
+		<script src="/js/lightgallery.umd.js"></script>
+		<script src="/js/lg-zoom.umd.js"></script>
+
 		{% js %}
 		{% include "assets/js/inline.js" %}
+		{% include "assets/js/lightbox-init.js" %}
 		{% endjs %}
 
 		<!-- This page `{{ page.url }}` was built on {% currentBuildDate %} -->

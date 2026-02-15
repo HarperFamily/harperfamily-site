@@ -1,0 +1,21 @@
+/* lightGallery custom styles
+ * Main lightGallery CSS is loaded via link tag from passthrough copy
+ * This file contains only site-specific overrides for font consistency
+ */
+
+/* Caption styling - match site fonts (Domine for headings, Source Sans Pro for body) */
+.lg-sub-html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px 20px;
+  /* lightGallery default background is good (semi-transparent dark) */
+}
+
+/* Optional: Style captions with heading text if needed */
+.lg-sub-html h1,
+.lg-sub-html h2,
+.lg-sub-html h3 {
+  font-family: 'Domine', serif;
+  margin: 0;
+}

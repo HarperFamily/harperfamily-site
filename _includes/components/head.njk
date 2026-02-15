@@ -17,10 +17,18 @@
     {% include "assets/css/inline.css" %}
   </style>
 
+  {#- lightGallery CSS from passthrough copy #}
+  <link rel="stylesheet" href="/css/lightgallery.min.css">
+
   {#- Render the CSS bundle using inlined CSS (for the fastest site performance in production) #}
   <style>
     {% getBundle "css" %}
   </style>
+
+  {#- lightGallery custom overrides #}
+  {% css %}
+    {% include "assets/css/lightbox.css" %}
+  {% endcss %}
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -22,6 +22,9 @@ export default async function (eleventyConfig) {
     .addPassthroughCopy({
       "./public/": "/",
       "admin": "/admin",
+      "./node_modules/lightgallery/lightgallery.umd.js": "/js/lightgallery.umd.js",
+      "./node_modules/lightgallery/css/lightgallery-bundle.min.css": "/css/lightgallery.min.css",
+      "./node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js": "/js/lg-zoom.umd.js"
     })
     .addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");;
 
