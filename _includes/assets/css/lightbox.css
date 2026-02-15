@@ -3,6 +3,15 @@
  * This file contains only site-specific overrides for font consistency
  */
 
+/* Ensure images fill the lightbox viewport properly */
+.lg-img-wrap img {
+  max-width: 95vw !important;
+  max-height: 95vh !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
 /* Caption styling - match site fonts (Domine for headings, Source Sans Pro for body) */
 .lg-sub-html {
   font-family: 'Source Sans Pro', sans-serif;
