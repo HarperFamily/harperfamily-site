@@ -71,23 +71,49 @@ export default function(eleventyConfig) {
 
     // Helper: Get highest-res image URL from picture element or img
     const getHighResUrl = (htmlSnippet, existingHref) => {
-      // If existing href points to an image URL (Backblaze pattern), keep it
+      // Helper function to extract largest URL from a srcset string
+      const getLargestFromSrcset = (srcsetString) => {
+        if (!srcsetString) return null;
+
+        const srcsetEntries = srcsetString.split(",").map(s => {
+          const parts = s.trim().split(/\s+/);
+          return {
+            url: parts[0],
+            width: parseInt(parts[1]) || 0  // Parse width descriptor (e.g., "1320w" -> 1320)
+          };
+        });
+
+        // Sort by width descending and get the largest
+        srcsetEntries.sort((a, b) => b.width - a.width);
+        return srcsetEntries[0]?.url;
+      };
+
+      // First: Look for jpeg/png source in picture element
+      const jpegSourceMatch = htmlSnippet.match(/<source[^>]+type=["']image\/(jpeg|png)["'][^>]*srcset=["']([^"']+)["']/);
+      if (jpegSourceMatch) {
+        const url = getLargestFromSrcset(jpegSourceMatch[2]);
+        if (url) return url;
+      }
+
+      // Second: Check img tag's srcset attribute (this is where jpeg images are for Eleventy Image)
+      const imgSrcsetMatch = htmlSnippet.match(/<img[^>]+srcset=["']([^"']+)["']/);
+      if (imgSrcsetMatch) {
+        const url = getLargestFromSrcset(imgSrcsetMatch[1]);
+        if (url) return url;
+      }
+
+      // Third: Fallback to img src attribute
+      const imgSrcMatch = htmlSnippet.match(/<img[^>]+\bsrc=["']([^"']+)["']/);
+      if (imgSrcMatch) {
+        return imgSrcMatch[1];
+      }
+
+      // Final fallback: use existing href if it points to an image (e.g., external URLs)
       if (existingHref && /\.(jpe?g|png|gif|webp|avif)(\?|$)/i.test(existingHref)) {
         return existingHref;
       }
 
-      // Look for jpeg/png source in picture element (prefer original format over webp/avif)
-      const jpegSourceMatch = htmlSnippet.match(/<source[^>]+type=["']image\/(jpeg|png)["'][^>]*srcset=["']([^"'\s]+)/);
-      if (jpegSourceMatch) {
-        // Extract the largest width from srcset (last entry)
-        const srcsetUrls = jpegSourceMatch[2].split(",").map(s => s.trim());
-        const lastUrl = srcsetUrls[srcsetUrls.length - 1].split(" ")[0];
-        return lastUrl;
-      }
-
-      // Fallback: extract img src attribute
-      const imgSrcMatch = htmlSnippet.match(/<img[^>]+\bsrc=["']([^"']+)["']/);
-      return imgSrcMatch ? imgSrcMatch[1] : "";
+      return "";
     };
 
     // Helper: Check if we should skip this image

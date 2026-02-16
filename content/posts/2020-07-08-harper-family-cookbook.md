@@ -10,7 +10,7 @@ tags:
 
 [![the harper family cookbook lays open on a spread showing a sticky toffee putting recipe and a photo of caramel sauce being poured on a pudding, behind it the cover of the harper family cookbook with an image biscuits neatly stacked and wrapped in gingham](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Spread-and-Cover-1536x1024.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Spread-and-Cover.jpg)
 
-![harper family cookbook lays open on a spread showing a recipe for plum pudding](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Inside_Mockup_1-1536x1024.jpg)
+[![harper family cookbook lays open on a spread showing a recipe for plum pudding](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Inside_Mockup_1-1536x1024.jpg)](https://f001.backblazeb2.com/file/harperfamily-media/Harper-Family-Cookbook_Inside_Mockup_1-1536x1024.jpg)
 
 [Download the Harper family Cookbook (PDF)](https://f001.backblazeb2.com/file/harperfamily-media/Harper%20Cookbook_PDF.pdf)
 
