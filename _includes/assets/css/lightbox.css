@@ -3,14 +3,6 @@
  * This file contains only site-specific overrides for font consistency
  */
 
-/* Ensure images fill the lightbox viewport properly */
-.lg-img-wrap img {
-  max-width: 95vw !important;
-  max-height: 95vh !important;
-  width: auto !important;
-  height: auto !important;
-  object-fit: contain !important;
-}
 
 /* Caption styling - match site fonts (Domine for headings, Source Sans Pro for body) */
 .lg-sub-html {
@@ -27,4 +19,21 @@
 .lg-sub-html h3 {
   font-family: 'Domine', serif;
   margin: 0;
+}
+
+
+button:is(.lg-prev, .lg-next) {
+  width: auto;
+}
+
+
+/* Fix for ghost/overlapping images in lightGallery transitions */
+/* Ensure non-current slides are completely hidden */
+.lg-css3.lg-zoom-in-big .lg-item:not(.lg-current) {
+  opacity: 0 !important;
+}
+
+/* Ensure only current slide is visible */
+.lg-css3.lg-zoom-in-big .lg-item.lg-current {
+  opacity: 1 !important;
 }

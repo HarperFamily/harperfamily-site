@@ -24,7 +24,8 @@ export default async function (eleventyConfig) {
       "admin": "/admin",
       "./node_modules/lightgallery/lightgallery.umd.js": "/js/lightgallery.umd.js",
       "./node_modules/lightgallery/css/lightgallery-bundle.min.css": "/css/lightgallery.min.css",
-      "./node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js": "/js/lg-zoom.umd.js"
+      "./node_modules/lightgallery/plugins/zoom/lg-zoom.umd.js": "/js/lg-zoom.umd.js",
+      "./node_modules/lightgallery/fonts": "/fonts"
     })
     .addPassthroughCopy("./content/feed/pretty-atom-feed.xsl");;
 
@@ -90,10 +91,11 @@ export default async function (eleventyConfig) {
     failOnError: false,
   };
 
-  // Only enable Netlify Image CDN URL transformation in production builds
-  const isProd = process.env.ELEVENTY_RUN_MODE === "build" || process.env.NODE_ENV === "production";
-  if (isProd) {
-    // Avoid local image processing in production — only emit stats (metadata)
+  // Only enable Netlify Image CDN URL transformation when deploying to Netlify
+  // This ensures local builds work with actual generated images
+  const isNetlify = process.env.NETLIFY === "true";
+  if (isNetlify) {
+    // Avoid local image processing on Netlify — only emit stats (metadata)
     imagePluginOptions.statsOnly = true;
     imagePluginOptions.remoteImageMetadata = {
       width: 1320,
