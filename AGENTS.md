@@ -56,6 +56,22 @@ The Harper Family Site is a static website built with [Eleventy](https://www.11t
 - Don't break existing frontmatter fields that Pages CMS relies on
 - Test content changes through the CMS admin interface when possible
 
+### 4. Longevity & Resilience
+- **Built to Last**: Design for long-term sustainability and maintainability
+- **Backwards Compatibility**: Maintain compatibility with existing content and features
+- **Progressive Enhancement**: Site must remain usable without JavaScript - JavaScript enhances but is never required
+- **Standards-Based**: Use web standards and open formats over proprietary solutions
+- **Portable Content**: Store content in formats that are reusable and portable (markdown, YAML, standard image formats)
+- **Vendor Agnostic**: Avoid lock-in with specific hosting providers or services
+  - Keep hosting requirements simple and generic
+  - Design for easy migration between providers if needed
+  - Prefer simpler, cost-effective hosting solutions
+  - Use standard deployment patterns that work across platforms
+- **CMS as Enhancement**: Pages CMS provides a nice editing UI, but the site must be fully functional with direct file editing as a fallback
+- **Robust & Resilient**: Features should degrade gracefully and handle errors without breaking the entire site
+- **Low Maintenance**: Minimize ongoing costs and maintenance requirements
+- **Technology Longevity**: Choose stable, well-supported technologies with long-term viability
+
 ## Development Guidelines
 
 ### HTML & Templates
